@@ -1,20 +1,69 @@
-header img{
-    height:140px;
-    width:170px;
-    float:left;
+
+nav img{
+    border:7px solid white;
+    height:20%;
+    width:20%;
 }
 
 header{
+    background-image: url(images/10-best-adidas-2017-2.jpg);
+    background-size: cover;
+    color:white;
+    padding:50px;
+}
+
+#product-info img{
+    height:15%;
+    width:20%;
+    float:left;
+}
+
+#product-info{
+    
+    background:rgba(0,0,0,0.8);
+    z-index: 2;
     padding:50px;
     width:80%;
-    border:3px solid black;
     margin:20px auto;
     overflow: auto;
 }
 
-header p{
+#product-info p{
+    font-weight: bold;
     width:70%;
     float:left;
     margin:20px 20px;
-    font
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+article {
+    overflow:hidden;
+    padding:3%;
+}
+
+.product_box{
+    margin:1% 5px;
+    float:left;
+    padding:1%;
+    text-align: center;
+    border:3px solid red;
+    width:30%;
+    height:30%;
+}
+
+.product_box img{
+    border:2px solid yellow;
+    height:70%;
+    width:70%;
+}
+
+footer{
+    color:white;
+    background-color:black;
+}
+
+footer img{
+    width:10%;
+    height:20%;
 }
