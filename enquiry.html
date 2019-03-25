@@ -4,7 +4,7 @@
             <meta charset="utf-8">
             <title>Enquiry</title>
             <link rel="stylesheet" type="text/css" href="style.css" >
-            <link rel="icon" href="images/HypeCentre.jpg">
+            <link rel="icon" href="images/HypeIcon.jpg">
             <style>
                 article{
                     background-image: url(images/whitewalls.jpg);
@@ -36,36 +36,69 @@
                         
                         <table>
                             <tr>
-                                <td><label for="c_name">Name:</label></td>
-                                <td><input type = "text" name="c_name" placeholder="Your name" id="c_name" required="required"/></td>
+                                <td><label for="firstname">First Name:</label></td>
+                                <td><input type = "text" name="firstname" placeholder="Your name" id="firstname" required="required" maxlength="25" pattern="[a-zA-Z]+"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="lastname">Last Name:</label></td>
+                                <td><input type = "text" name="lastname" placeholder="Your name" id="lastname" required="required" maxlength="25" pattern="[a-zA-Z]+"/></td>
                             </tr>
 
                             <tr>
                                 <td><label for="c_email">Email:</label></td>
-                                <td><input type = "text" name="c_email" placeholder="Your email" id="c_email" required="required"/></td>
+                                <td><input type = "email" name="c_email" placeholder="Your email" id="c_email" required="required"/></td>
                             </tr>
 
                             <tr>
                                 <td><label for="c_contact"> Mobile Number:</label></td>
-                                <td><input type = "text" name="pcontact" required="required" id="c_contact"></td>
+                                <td><input type = "text" name="pcontact" required="required" id="c_contact" maxlength=10 placeholder="+60-123456789"></td>
                             </tr>
                             
-                            <tr>
-                                <td>
-                                    <label> Area code:</label>
-                                </td>
-                                <td>
-                                    <input type = "text" name="pareacode" placeholder="Example: +60" id="c_area_code" required="required"/>
-                                </td>
-                            </tr> 
+                            
                         </table>   
+                    </fieldset>
+
+                    <fieldset id="customer_address">
+                        <legend>Address</legend>
+                        <table >
+                            <tr>
+                                <td><label id="street_address">Street Address</label></td>
+                                <td><input type="text" id="street_address" name="street_address" maxlength="40"></td>
+                            </tr>
+                            <tr>
+                                <td><label id="town">City/Town: </label></td>
+                                <td><input type="text" id="town" name="town" maxlength="20"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="state">State:</label></td>
+                                <td>
+                                    <select name="state" id="state">
+                                        <option value="Sarawak">Sarawak</option>
+                                        <option value="Sabah">Sabah</option>
+                                        <option value="Johor">Johor</option>
+                                        <option value="Melaka">Melaka</option>
+                                        <option value="N9">Negeri Sembilan</option>
+                                        <option value="Pahang">Pahang</option>
+                                        <option value="Selangor">Selangor</option>
+                                        <option value="KL">Federal Territory of Kuala Lumpur</option>
+                                        <option value="Kelantan">Kelantan</option>
+                                        <option value="Terengganu">Terengganu</option>
+                                        <option value="Perlis">Perlis</option>
+                                        <option value="Penang">Penang</option>
+                                        <option value="Kedah">Kedah</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="postcode">Postcode:</label></td>
+                                <td><input type="text" name="postcode" id="postcode" maxlength="5"></td>
+                            </tr>
+                        </table>
                     </fieldset>
                     
                     <fieldset id="shoe_model_field">
                         <legend> Shoe model and details </legend>
-                            <h2>Only a maximum of 2 shoes</h2>
                             
-                            <p><strong>First Shoe</strong></p>
                             <table>
                                 <tr>
                                     <td><label for="shoe1_model">Shoe model:</label></td>      
@@ -101,47 +134,15 @@
                                 <tr>
                                     <td><input type="number" min="1" max="12" name="shoe1_size" step="1" id="shoe1_size"></td>
                                 </tr>
+
+                                <tr>
+                                    <td><label for="duration">Rental duration (days):</label></td>
+                                    <td><input type="number" min="1" max="7" name="duration" step="1" id="duration"></td>
+                                </tr>
                             </table> 
                             
                             <br>
-                            <p><Strong>Second Shoe</Strong></p>
-                            <table>
-                            <tr>
-                                <td><label for="shoe2_model">Shoe model:</label></td>
-                                <td><select name="shoe2_model" id="shoe2_model">
-                                        <option>-Choose One-</option>
-                                        <optgroup label="Adidas">
-                                            <option value="Yeezy True Form">Yeezy True Form</option>
-                                            <option value="Yeezy Wave Runner">Yeezy Wave Runner</option>
-                                            <option value="NMD SOLAR HU CNY">NMD Solar Hu CNY</option>
-                                            <option value="BAPE Ultraboost">Bape Ultraboost</option>
-                                            <option value="Pharell CNY Gold">Pharell CNY GOld</option>
-                                            <option value="Future Craft">Future Craft</option>
-                                        </optgroup>
-                                        </select>
-                                </td>
-                            </tr>
                             
-                            <tr>
-                                <td><label for="shoe2_colour_way">Colourway of shoe :</label></td>
-                                <td><input type="text" id="shoe2_colour_way" name="shoe2_colour_way" placeholder="Example: Beluga 2.0"/></td>
-                            </tr>
-                            
-                            <tr>
-                                    <td rowspan="2"><label for="shoe2_size">Shoe size:</label></td>
-                                <td>
-                                    <input type="radio" id="US_shoe2" name="chart_type" value="US_shoe2" required="required">
-                                    <label for="US_shoe2" >US Chart</label>
-
-                                    <input type="radio" id="UK_shoe2" name="chart_type" value="UK_shoe2">
-                                    <label for="UK_shoe2">UK Chart</label>
-                                </td>
-                                <tr>
-                                    <td><input type="number" min="1" max="12" name="shoe2_size" step="1" id="shoe2_size"></td>
-                                </tr>
-                            
-                            </table>
-                        
                         </fieldset>
                     
                     <fieldset>
