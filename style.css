@@ -154,8 +154,12 @@ article {
 
 .promotional-card a:hover{
     background-color: black;
-
 }
+#banner-info h1{
+    text-align: center;
+}
+
+/*end of header and banners*/
 
 #promotional-card-container{
     padding:2em;
