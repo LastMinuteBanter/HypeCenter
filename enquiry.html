@@ -1,1 +1,162 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>Enquiry</title>
+            <link rel="stylesheet" type="text/css" href="style.css" >
+            <link rel="icon" href="images/HypeCentre.jpg">
+            <style>
+                article{
+                    background-image: url(images/whitewalls.jpg);
+                    background-size: cover;
+                    background-attachment: fixed;
+                }
+            </style>
+    </head>
+    <body>
+        <nav>
+            <img src="images/HypeCentre.jpg" alt="HypeCentre logo">
+        </nav>
+        <header>
+            <div id="enquiry-banner">
+
+            <div id="banner-info">
+                    <h1>Enquire Us!</h1>
+            </div>
+                
+            </div>
+        </header>
+
+
+        <article>
+            
+                <form id="survey" method="GET" action="process.php">
+                    <fieldset id="personal_details_field">
+                        <legend>Personal Details:</legend>
+                        
+                        <table>
+                            <tr>
+                                <td><label for="c_name">Name:</label></td>
+                                <td><input type = "text" name="c_name" placeholder="Your name" id="c_name" required="required"/></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="c_email">Email:</label></td>
+                                <td><input type = "text" name="c_email" placeholder="Your email" id="c_email" required="required"/></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="c_contact"> Mobile Number:</label></td>
+                                <td><input type = "text" name="pcontact" required="required" id="c_contact"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <label> Area code:</label>
+                                </td>
+                                <td>
+                                    <input type = "text" name="pareacode" placeholder="Example: +60" id="c_area_code" required="required"/>
+                                </td>
+                            </tr> 
+                        </table>   
+                    </fieldset>
+                    
+                    <fieldset id="shoe_model_field">
+                        <legend> Shoe model and details </legend>
+                            <h2>Only a maximum of 2 shoes</h2>
+                            
+                            <p><strong>First Shoe</strong></p>
+                            <table>
+                                <tr>
+                                    <td><label for="shoe1_model">Shoe model:</label></td>      
+                                    <td>
+                                        <select name="shoe1_model" id="shoe1_model">
+                                        <option>-Choose One-</option>
+                                        <optgroup label="Adidas">
+                                            <option value="Yeezy True Form">Yeezy True Form</option>
+                                            <option value="Yeezy Wave Runner">Yeezy Wave Runner</option>
+                                            <option value="NMD SOLAR HU CNY">NMD Solar Hu CNY</option>
+                                            <option value="BAPE Ultraboost">Bape Ultraboost</option>
+                                            <option value="Pharell CNY Gold">Pharell CNY GOld</option>
+                                            <option value="Future Craft">Future Craft</option>
+                                        </optgroup>
+                                        </select>
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><label for="shoe1_colour_way">Colourway of shoe :</label></td>
+                                    <td><input type="text" id="shoe1_colour_way" name="shoe1_colour_way" placeholder="Example: Beluga 2.0"/></td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="2"><label for="shoe1_size">Shoe size:</label></td>
+                                <td>
+                                    <input type="radio" id="US_shoe1" name="chart_type" value="US_shoe1" required="required">
+                                    <label for="US_shoe1">US Chart</label>
+
+                                    <input type="radio" id="UK_shoe1" name="chart_type" value="UK_shoe1">
+                                    <label for="UK_shoe1">UK Chart</label>
+                                </td>
+                                <tr>
+                                    <td><input type="number" min="1" max="12" name="shoe1_size" step="1" id="shoe1_size"></td>
+                                </tr>
+                            </table> 
+                            
+                            <br>
+                            <p><Strong>Second Shoe</Strong></p>
+                            <table>
+                            <tr>
+                                <td><label for="shoe2_model">Shoe model:</label></td>
+                                <td><select name="shoe2_model" id="shoe2_model">
+                                        <option>-Choose One-</option>
+                                        <optgroup label="Adidas">
+                                            <option value="Yeezy True Form">Yeezy True Form</option>
+                                            <option value="Yeezy Wave Runner">Yeezy Wave Runner</option>
+                                            <option value="NMD SOLAR HU CNY">NMD Solar Hu CNY</option>
+                                            <option value="BAPE Ultraboost">Bape Ultraboost</option>
+                                            <option value="Pharell CNY Gold">Pharell CNY GOld</option>
+                                            <option value="Future Craft">Future Craft</option>
+                                        </optgroup>
+                                        </select>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="shoe2_colour_way">Colourway of shoe :</label></td>
+                                <td><input type="text" id="shoe2_colour_way" name="shoe2_colour_way" placeholder="Example: Beluga 2.0"/></td>
+                            </tr>
+                            
+                            <tr>
+                                    <td rowspan="2"><label for="shoe2_size">Shoe size:</label></td>
+                                <td>
+                                    <input type="radio" id="US_shoe2" name="chart_type" value="US_shoe2" required="required">
+                                    <label for="US_shoe2" >US Chart</label>
+
+                                    <input type="radio" id="UK_shoe2" name="chart_type" value="UK_shoe2">
+                                    <label for="UK_shoe2">UK Chart</label>
+                                </td>
+                                <tr>
+                                    <td><input type="number" min="1" max="12" name="shoe2_size" step="1" id="shoe2_size"></td>
+                                </tr>
+                            
+                            </table>
+                        
+                        </fieldset>
+                    
+                    <fieldset>
+                        <legend>Comment Section</legend>
+                            <p>If you have any enquiries on how our rental services work such as more details on pricing and terms and conditions, please do fill in the comment section below.</p>
+                        <label>Enter description below:
+                            <br/>
+                            <textarea name="comments" placeholder="Enter your comments here"  cols="80" rows="10"></textarea>
+                        </label>	
+                    </fieldset>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset all values">
+                    </form>
+        </article>
+
+    </body>
+</html>
