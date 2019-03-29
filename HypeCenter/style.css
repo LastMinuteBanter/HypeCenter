@@ -485,13 +485,11 @@ footer hr{
 #banner-kiwano{
 	display: block;
 	position: relative;
-	left: 20%;
-	opacity: 0.2;
+	left: 22%;
+	opacity: 0.1;
 }
 
 h1.banner-text-black-text{
-    border:2px;
-	border-style: double;
     padding-top:10px;
     color:black;
     font-size: 100px;
