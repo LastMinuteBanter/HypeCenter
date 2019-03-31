@@ -14,21 +14,38 @@
             </style>
     </head>
     <body>
+    <header>
         <nav>
-            <img src="images/HypeCentre.jpg" alt="HypeCentre logo">
-        </nav>
-        <header>
-            <div id="enquiry-banner">
+            <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
 
-            <div id="banner-info">
-                    <h1>Enquire Us!</h1>
+            <div class="hamburger-nav">
+                    <label for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle"/>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Brands</a>
+                                <ul>
+                                    <li><a href="adidas.html">Adidas</a></li>
+                                    <li><a href="converse.html">Converse</a></li>
+                                    <li><a href="nike.html">Nike</a></li>
+                                    <li><a href="vans.html">Vans</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="enquiry.html">Enquire</a></li>
+                            <li><a href="">About Us</a></li>
+                        </ul>
+                    </div>
             </div>
-                
-            </div>
+        </nav>
         </header>
 
 
         <article>
+            <div id="enquire-content">
+                <h1>ENQUIRE US!</h1>
+
+            </div>
             
                 <form id="survey" method="GET" action="process.php">
                     <fieldset id="personal_details_field">
