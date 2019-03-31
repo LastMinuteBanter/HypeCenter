@@ -159,6 +159,61 @@ nav ul li:hover ul{
 }
 /*********************************/
 
+#adidas-banner,#converse-banner,#nike-banner,#vans-banner{
+    color:white;
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    height:100vh;
+}
+
+#adidas-banner{
+    background-image: url(images/adidasbanner.jpg);
+}
+
+#converse-banner{
+    background-image: url(images/conversebanner.jpg);
+}
+
+#nike-banner{
+    background-image: url(images/nikebanner.jpg);
+}
+
+#vans-banner{
+    background-image: url(images/vansbanner.jpg);
+}
+
+#banner-content{
+    position: relative;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    background-color:rgba(0,0,0,0.4);
+}
+
+#banner-content img{
+    position: relative;  
+    height:20%;
+    width:18%;
+    top:30%;
+    align-content: center;
+    display: block;
+    margin:0 auto;
+}
+
+p.brand-slogan{
+    position: relative;
+    top:30%;
+    background-color:white;
+    color:black;
+    padding:1em;
+    font-size:2em;
+    border-radius: 10px;
+    width:30%;
+    margin:2em auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /*The following CSS is for the video header effect*/
     .v-header{
@@ -241,14 +296,7 @@ nav ul li:hover ul{
         font-size:3em;
     }
 
-    p.brand-slogan{
-        background-color:black;
-        padding:1em;
-        font-size:2em;
-        border-radius: 10px;
-        width:50%;
-        margin:0 auto;
-    }
+
     
 /*End of video overlay part*/
 
