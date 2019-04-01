@@ -412,10 +412,10 @@ p.brand-slogan{
 
 /*styling for about hypecenter page*/
 #abouthypecenter-content{
-    padding:2em;
-    background-color:#dcdcdc;
-    margin:2em auto;
-    width:80%;
+    float: left;
+    padding:1%;
+    margin: 2em auto;
+    width:48%;
 }
 #abouthypecenter-content p{
     color:black;
