@@ -419,6 +419,28 @@ p.brand-slogan{
 
 
 /*styling for about hypecenter page*/
+
+
+
+#abouthypecenter-logo{
+    position: relative;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    background-color:rgba(0,0,0,0.4);
+}
+
+#abouthypecenter-logo img{
+    position: relative;  
+    height:20%;
+    width:30%;
+    top:30%;
+    align-content: center;
+    display: block;
+    margin:0 auto;
+    border:8px solid white;
+}
+
 #abouthypecenter-content{
     float: left;
     padding:1%;
