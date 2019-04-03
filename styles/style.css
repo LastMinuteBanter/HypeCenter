@@ -179,22 +179,27 @@ nav ul li:hover ul{
 
 #abouthypecenter-banner {
     background-image: url(images/abouthypecenterbanner.png);
+    /*This image was taken from https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjG3cSFyLPhAhVTmuYKHTGJCkUQjRx6BAgBEAU&url=https%3A%2F%2Fwestcoastselfstorage.com%2Fhow-to-organize-display-store-your-sneaker-collection%2F&psig=AOvVaw05x9BHHw7rjjSluM0umH3E&ust=1554368502126275*/
 }
 
 #adidas-banner{
     background-image: url(images/adidasbanner.jpg);
+    /*This image was taken from https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiKxqvNyLPhAhVUjOYKHVgqCwsQjRx6BAgBEAU&url=http%3A%2F%2Fwww.utahwerks.com%2Faddia-shoes-zapatosr&psig=AOvVaw3lXznIM4xxEuX3GJqfu7fl&ust=1554368653886131*/
 }
 
 #converse-banner{
     background-image: url(images/conversebanner.jpg);
+    /*This image was taken from https://unsplash.com/photos/mWYhrOiAgmA*/
 }
 
 #nike-banner{
     background-image: url(images/nikebanner.jpg);
+    /*This image was taken from https://unsplash.com/photos/crRwoRukgkA*/
 }
 
 #vans-banner{
     background-image: url(images/vansbanner.jpg);
+    /*This image was taken from https://unsplash.com/photos/e3MGSnMmrjg*/
 }
 
 #banner-content{
@@ -572,25 +577,30 @@ p.brand-slogan{
 /*End of formatting for introduction section of brand pages*/
 
 /*Enquire page banner styling*/
-#enquire-content{
-    text-align: center;
-    width:80%;
-    margin:0 auto;
-    color:white;
-    background-image: url(images/enquirebanner.jpg);
+#enquiry-page{
+background-image: url(images/enquirebanner.jpg); /*This image was taken from https://hypebeast.com/2017/5/off-white-air-jordan-1-on-feet*/
+background-size: cover;
 }
 
-#enquire-content h1{
-    font-size:40px;
+#enquiry-us{
+    
+    border:5px solid black;
+    width:40%;
+    font-size: 50px;
+    margin:5% auto;
+    text-align: center;
+    padding:10px;
+    color:black;
+    background-color: white;
+    
 }
 
 /*Form elements styles*/
 
 #form-background{
-    background-image: url(images/enquirebanner.jpg);
+    background-color: rgba(0,0,0,0.3);
     width:80%;
     margin:5% auto;
-    border-radius: 25px;
 }
 #personal_details_field,#customer_address{
     float:left;
@@ -610,9 +620,8 @@ form{
 
 fieldset{
     color:white;
-    background-color:rgba(0,0,0,0.7);
-    border-radius: 25px;
     margin:5% 3%;
+    background-color:rgba(0, 0, 0, 0.7);
 }
 
 legend{
