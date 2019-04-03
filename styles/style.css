@@ -700,14 +700,14 @@ input[type=submit]:hover,input[type=reset]:hover{
 
 
 /*Disclaimer page styling*/
-#disclaimer-content{
+#disclaimer-and-enhancement-content{
     margin:5% auto;
     width:70%;
     padding:1em;
     font-size:20px;
 }
 
-#disclaimer-content h1{
+#disclaimer-and-enhancement-content h1{
     text-align:center;
     width:30%;
     margin:0 auto;
@@ -775,7 +775,7 @@ footer> p{
 }
 .footer_list ul{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer_list ul li{
@@ -807,6 +807,7 @@ footer> p{
     width:100px;
     height:50px;
 }
+
 
 footer a{
     text-decoration: none;
