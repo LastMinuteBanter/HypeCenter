@@ -18,7 +18,7 @@
                                 <input type="checkbox" id="toggle"/>
                                 <div class="menu">
                                     <ul>
-                                        <li><a class="active" href="index.html">Home</a></li>
+                                        <li><a href="index.html">Home</a></li>
                                         <li>Brands
                                             <ul>
                                                 <li><a href="adidas.html">Adidas</a></li>
@@ -37,6 +37,22 @@
 
                 <article id="disclaimer-and-enhancement-content">
                     <h1>Enhancements</h1>
+                    <h2>1. Autoplaying video in index.html </h2>
+                    <p>In the homepage of the website, the </p>
+
+                    <h2>2. Resizable Navigation menu</h2>
+                    <p>As stated by the assignment guidelines, a menu containing links to other parts of the website needs to be implemented. Aside from just creating a normal navigation menu, our team has implemented a navigation menu that would resize based on the window size of the browser. This helps to give the navigation menu a cleaner look even if the window size is smaller than usual.</p>
+
+                    <p>To implement this feature, the team used a combination of HTML elements along with some CSS styles. In the HTML part, the team added a checkbox input, with a hamburger icon as a label, before the menu list in the “nav” tag. In the CSS part, the team set the checkbox to be hidden with the <code>display:none;</code> command. Next, the team implemented the use of CSS3 Media Queries to change the navigation bar for different screen sizes. This was done by adding the selector <code>@media only screen and (max-width: 1000px)</code>, which meant it allowed the specified CSS to only take place when the screen size is 1000 pixels or below.</p>
+
+                    <p>In the media query selector, the hamburger icon is now set to <code>display:block;</code> and the unordered list used in making the horizontal navigation menu increased in width to 100%. In order to only show this version of the navigation menu when the checkbox is checked, the following code was added <code>#toggle:checked+.menu{display: block;}</code>. We carried out this technique from <a href="https://www.youtube.com/watch?v=xMTs8tAapnQ">this video</a></p>
+
+                    <p>The feature can be tested on the <a href="index.html#toggle">index page</a> by resizing the page </p>
+
+                    <h2>3. Product Image Hover Effect</h2>
+                    <p>Aside from just implementing static images for products in the brand pages, the team have made each of the products on their respective brand pages to be hoverable and show a link to their individual product pages. This allows the webpage to feel more interactive for the users.</p>
+
+                    <p></p>
                 </article>
 
             <footer>

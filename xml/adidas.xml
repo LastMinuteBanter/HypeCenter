@@ -2,16 +2,16 @@
 
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
         <title>Rent Adidas Shoes</title>
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
     </head>
 
     <body>
         <header>
                 <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -36,7 +36,7 @@
             <div id="adidas-banner">
 
             <div id="banner-content">
-                <img src="images/adidas.png" alt="adidas logo">
+                <img src="images/adidas.png" alt="adidas logo"/>
                 <p class="brand-slogan">All in or Nothing</p>
             </div>      
             </div>
@@ -52,7 +52,7 @@
        
         <section>
             <div class="product_box">
-                    <img src="images/adidas_yeezy_tf_right.jpg" alt="adidas yeezys true form">
+                    <img src="images/adidas_yeezy_tf_right.jpg" alt="adidas yeezys true form"/>
                     <!--This image was taken from https://hypebeast.com/2019/1/adidas-yeezy-boost-350-v2-true-form-->
                         <p><a target="_blank" href="yeezytrueform.html">Learn More</a> </p>
                         <h2>Adidas Yeezy True Form</h2>
@@ -61,7 +61,7 @@
 
             <div class="product_box">
                     
-                    <img src="images/adidas_yeezy_wr_right.jpg" alt="adidas yeezy wave runner">
+                    <img src="images/adidas_yeezy_wr_right.jpg" alt="adidas yeezy wave runner"/>
                     <!--This image was taken from https://stockx.com/adidas-yeezy-wave-runner-700-solid-grey-->
                     <p><a target="_blank" href="yeezywaverunner.html">Learn More</a> </p>
                     <h2>Adidas Yeezy Wave Runner</h2>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="product_box">
-                    <img src="images/adidas_solar_hu_right.jpg" alt="adidas solar HU">
+                    <img src="images/adidas_solar_hu_right.jpg" alt="adidas solar HU"/>
                     <!--This image was taken from https://stockx.com/adidas-solar-hu-pharrell-chinese-new-year-2019-->
                     <p><a target="_blank" href="nmdsolarhu.html">Learn More</a> </p>
                     <h2>Adidas Solar HU</h2>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="product_box">
-                    <img src="images/adidas_bape_right.jpg" alt="adidas bape Ultraboost">
+                    <img src="images/adidas_bape_right.jpg" alt="adidas bape Ultraboost"/>
                     <!--This image was taken from https://stockx.com/adidas-ultra-boost-4-bape-camo-->
                     <p><a target="_blank" href="bapeultraboost.html">Learn More</a> </p>
                     <h2>Adidas BAPE Ultraboost</h2>
@@ -86,7 +86,7 @@
             </div>
 
             <div class="product_box">
-                    <img src="images/adidas_pharell_right.jpg" alt="adidas Pharell NMD HU CNY Gold">
+                    <img src="images/adidas_pharell_right.jpg" alt="adidas Pharell NMD HU CNY Gold"/>
                     <!--This image was taken from https://stockx.com/adidas-nmd-hu-china-pack-happy-gold-->
                     <p><a target="_blank" href="nmdcnygold.html">Learn More</a> </p>
                     <h2>Adidas Pharell NMD HU CNY GOLD</h2>
@@ -94,7 +94,7 @@
             </div>
 
             <div class="product_box">
-                    <img src="images/adidas_future_right.jpg" alt="adidas futurecraft">
+                    <img src="images/adidas_future_right.jpg" alt="adidas futurecraft"/>
                     <!--THis image was taken from https://stockx.com/adidas-futurecraft-4d-daniel-arsham-->
                     <p><a target="_blank" href="futurecraft.html">Learn More</a> </p>
                     <h2>Adidas Futurecraft</h2>
@@ -114,10 +114,10 @@
         </div>
 
         <div id="brand-logo-footer">
-            <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-            <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-            <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-            <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+            <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+            <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+            <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+            <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
         </div>
 
         <div id="team-members">
