@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
         <title>Converse Star Player Low “Intangibles”</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -37,10 +37,10 @@
 
         <section class="product-img">
             <h2>Converse Star Player Low “Intangibles”</h2>
-                <img src="images/converse_spli_right.jpeg" alt="Intangible right">
-                <img src="images/converse_spli_top.jpeg" alt="Intangible top">
-                <img src="images/converse_spli_left.jpeg" alt="Intangible left">
-                <img src="images/converse_spli_back.jpeg" alt="Intangible back">
+                <img src="images/converse_spli_right.jpeg" alt="Intangible right"/>
+                <img src="images/converse_spli_top.jpeg" alt="Intangible top"/>
+                <img src="images/converse_spli_left.jpeg" alt="Intangible left"/>
+                <img src="images/converse_spli_back.jpeg" alt="Intangible back"/>
         </section>
 
         <article class="sneakers-description">
@@ -117,10 +117,10 @@
                 </div>
         
                 <div id="brand-logo-footer">
-                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
                 </div>
         
                 <div id="team-members">

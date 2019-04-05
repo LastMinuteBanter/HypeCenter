@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
-        <title>Converse Star Player Low “Intangibles”</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
+        <title>Nike AJ4 Travis Scott</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -36,18 +36,18 @@
         </header>
 
         <section class="product-img">
-            <h2>Converse Star Player Low “Intangibles”</h2>
-                <img src="images/converse_spli_right.jpeg" alt="Intangible right">
-                <img src="images/converse_spli_top.jpeg" alt="Intangible top">
-                <img src="images/converse_spli_left.jpeg" alt="Intangible left">
-                <img src="images/converse_spli_back.jpeg" alt="Intangible back">
+            <h2>Nike Air Jordan 4 Travis Scott</h2>
+                <img src="images/travisright.jpg" alt="AJ4 Travis right"/>
+                <img src="images/travisside.jpg" alt="AJ4 Travis side"/>
+                <img src="images/travisback.jpg" alt="AJ4 Travis back"/>
+                <img src="images/travisbottom.jpg" alt="AJ4 Travis bottom"/>
         </section>
 
         <article class="sneakers-description">
                 <h1>Background Information</h1>
-                <p>Converse has released a special edition of its Star Player Low sneaker in a colourway that honors the hardwork and determination of Wes Unseld in the 1978 NBA Finals. After being sweptback in 1971 and 1975, Unseld would play a key role in winning a championship in game seven against the Seattle Supersonics. The game was ended by two free throws from Unseld on his way to the Finals MVP honors. This particular sneaker features an upper canvas in an off white and blue colourway and touches of red can be found on areas of the sneaker such as the classic star logo, the heel tab, the midsole piping of the sneaker and the tongue branding.</p>
-                <p> Moreover,the collection’s sixteen tally in gold is also added onto the white midsole of the sneaker. The sneaker was released on 17th May 2018 and was only available in very limited quantities only. As of now, this particular sneaker is rarely seen on the streets as this particular sneaker is considered to be a very valuable collectible item that could be worth thousands one day in the future. Moreover, this sneaker also gives a vintage vibe look and feel due to its inspiration taken from the 70’s that has been implemented into the design of this sneaker. Read more <a href="https://hypebeast.com/2018/5/converse-star-player-low-intangibles-release-date " target="_blank">here.</a></p>
-                <!--The info and image was taken from https://hypebeast.com/2018/5/converse-star-player-low-intangibles-release-date -->
+                <p>The Air Jordan 4 Cactus Jack, or also known as the Air Jordan 4 Travis Scott is sneaker that represents a collaboration between hip hop artist Travis Scott, record label founder and Houston sports fan enthusiast. The colourway features red, white and light blue which represents the design of the Houston football. The details on the heel counter and the inside of tongue of the shoe pays homage to the rapper and his label, Cactus Jack records.  The sneaker is currently sitting at a very high resell value of at least $US446 dollars and is a great increase from its original retail price of $US225. The prices are hiking due to sizing availability and high demand.</p>
+                <p>A friends and family version of this sneaker was released and that particular version of the sneaker has some light changes to the sneaker will cost up to at least thousands of dollars as the friends and family editions are special editions of the sneaker that were given to the workers who were involved in this creation of the sneaker as well as the friends and family members of Travis Scott. This particular model was one of the most hyped sneakers of 2018. The sneaker was released on the 9th of June 2018 and has still remained as one of the most hyped sneakers till now. Read more <a href="https://www.stadiumgoods.com/air-jordan-4-retro-269051" target="_blank">here.</a></p>
+                <!--The info and image was taken from https://www.stadiumgoods.com/air-jordan-4-retro-269051-->
 
                 <table>
                         <tr>
@@ -57,6 +57,8 @@
                 </table>
 
                 <p><a class="enquirebutton" href="enquiry.html">RENT NOW!</a></p>
+				
+				
         </article>
 
         <aside>
@@ -77,7 +79,7 @@
                              <li><a href="leviaj4.html">Levi's Air Jordan 4</a></li>
                              <li><a href="aj1offchicago.html">Nike AJ1 OFF-White Chicago</a></li>
                              <li><a href="airmax.html">Air Max 1/97 Sean Wotherspoon</a></li>
-                             <li><a href="aj4travis.html">Nike AJ4 Travis Scott</a></li>
+                             <li><a href="aj4travis.html" class="active">Nike AJ4 Travis Scott</a></li>
                              <li><a href="airyeezy2.html">Nike Air Yeezy 2 Red Octobers</a></li>
                              <li><a href="aj13.html">Nike AJ13 Terracotta Warrior</a></li>
                          </ol>
@@ -90,7 +92,7 @@
                                  <li><a href="converseallstart.html">Converse Chuck Taylor AllStar(hi Top Sunflower Yellow)</a></li>
                                  <li><a href="conversedrwoo.html">Dr.Woo x Chuck Taylor 'white'</a></li>
                                  <li><a href="converseoffwhite.html">OffWhite x Chuck Taylor</a></li>
-                                 <li><a href="converseintangible.html" class="active">Converse Intangible</a></li>
+                                 <li><a href="converseintangible.html">Converse Intangible</a></li>
                              </ol>
                         </li>
                         <li>
@@ -105,7 +107,7 @@
                             </ol>
                         </li>
                 </ul>
-            </aside> 
+            </aside>
             <footer>
                 <div class="footer_list">
                     <ul>
@@ -117,10 +119,10 @@
                 </div>
         
                 <div id="brand-logo-footer">
-                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
                 </div>
         
                 <div id="team-members">

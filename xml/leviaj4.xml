@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
         <title>Levi’s Air Jordan 4</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -37,10 +37,10 @@
 
         <section class="product-img">
             <h2>Levi's Air Jordan 4</h2>
-                <img src="images/levisright.jpg" alt="Levi shoe right">
-                <img src="images/leviside.jpg" alt="levi shoe side">
-                <img src="images/levisback.jpg" alt="levi shoe back">
-                <img src="images/levisbottom.jpg" alt="levi shoe bottom">
+                <img src="images/levisright.jpg" alt="Levi shoe right"/>
+                <img src="images/leviside.jpg" alt="levi shoe side"/>
+                <img src="images/levisback.jpg" alt="levi shoe back"/>
+                <img src="images/levisbottom.jpg" alt="levi shoe bottom"/>
         </section>
 
         <article class="sneakers-description">
@@ -118,10 +118,10 @@
                 </div>
         
                 <div id="brand-logo-footer">
-                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
                 </div>
         
                 <div id="team-members">

@@ -99,7 +99,7 @@
                             </tr>
                             <tr>
                                 <td><label for="postcode">Postcode:</label></td>
-                                <td><input type="text" name="postcode" id="postcode" maxlength="5"/></td>
+                                <td><input type="text" name="postcode" id="postcode" pattern="\d{5}"/></td>
                             </tr>
                         </table>
                     </fieldset>
@@ -118,8 +118,32 @@
                                             <option value="Yeezy Wave Runner">Yeezy Wave Runner</option>
                                             <option value="NMD SOLAR HU CNY">NMD Solar Hu CNY</option>
                                             <option value="BAPE Ultraboost">Bape Ultraboost</option>
-                                            <option value="Pharell CNY Gold">Pharell CNY GOld</option>
+                                            <option value="Pharell CNY Gold">Pharell CNY Gold</option>
                                             <option value="Future Craft">Future Craft</option>
+                                        </optgroup>
+                                        <optgroup label="Nike">
+                                            <option value="Levi's Air Jordan 4">Levi's Air Jordan 4</option>
+                                            <option value="AJ1 OFF-White Chicago">AJ1 OFF-White Chicago</option>
+                                            <option value="Air Max 1/97 Sean Wotherspoon">Air Max 1/97 Sean Wotherspoon</option>
+                                            <option value="AJ4 Travis Scott">AJ4 Travis Scott</option>
+                                            <option value="Air Yeezy 2 Red Octobers">Air Yeezy 2 Red Octobers</option>
+                                            <option value="AJ13 Terracotta Warrior">AJ13 Terracotta Warrior</option>
+                                        </optgroup>
+                                        <optgroup label="Converse">
+                                            <option value="CDG X Chuck Taylor 1970 Low 'play'">CDG X Chuck Taylor 1970 Low 'play'</option>
+                                            <option value="NBA x Chuck Taylor CHi">NBA x Chuck Taylor CHi</option>
+                                            <option value="Chuck Taylor Allstar">Chuck Taylor Allstar</option>
+                                            <option value="Dr. Woo x Chuck Taylor 'white'">Dr. Woo x Chuck Taylor 'white'</option>
+                                            <option value="OffWhite x Chuck Taylor">OffWhite x Chuck Taylor</option>
+                                            <option value="Intangible">Intangible</option>
+                                        </optgroup>
+                                        <optgroup label="Vans">
+                                            <option value="Sk8 Pro Supreme Green Skull Pile">Sk8 Pro Supreme Green Skull Pile</option>
+                                            <option value="Sk8 Hi Pro Supreme Checkboard">Sk8 Hi Pro Supreme Checkboard</option>
+                                            <option value="Sk8 Hi 46 MTE DX Nasa Space Voyager">Sk8 Hi 46 MTE DX Nasa Space Voyager</option>
+                                            <option value="Vans X Mastermind X Kith">Vans X Mastermind X Kith</option>
+                                            <option value="Fear of God Vans Mountain Edition 35 DX">Fear of God Vans Mountain Edition 35 DX</option>
+                                            <option value="Sk8 HI 'Cut and Paste'">Sk8 HI "Cut and Paste"</option>
                                         </optgroup>
                                         </select>
                                     </td>

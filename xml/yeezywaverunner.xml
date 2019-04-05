@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
         <title>Yeezy Wave Runner</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -37,10 +37,10 @@
 
         <section class="product-img">
                 <h2>Adidas Yeezy Wave Runner</h2>
-                <img src="images/adidas_yeezy_wr_left.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_wr_right.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_wr_back.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_wr_top.jpg" alt="yeezy side view">
+                <img src="images/adidas_yeezy_wr_left.jpg" alt="yeezy side view"/>
+                <img src="images/adidas_yeezy_wr_right.jpg" alt="yeezy side view"/>
+                <img src="images/adidas_yeezy_wr_back.jpg" alt="yeezy side view"/>
+                <img src="images/adidas_yeezy_wr_top.jpg" alt="yeezy side view"/>
         </section>
         <article class="sneakers-description">
                 <h1>Background Information</h1>
@@ -116,10 +116,10 @@
         </div>
 
         <div id="brand-logo-footer">
-            <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-            <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-            <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-            <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+            <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+            <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+            <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+            <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
         </div>
 
         <div id="team-members">

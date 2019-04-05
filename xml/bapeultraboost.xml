@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
-        <title>Converse Star Player Low “Intangibles”</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
+        <title>Bape Ultraboost</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -35,19 +35,19 @@
             
         </header>
 
+        
         <section class="product-img">
-            <h2>Converse Star Player Low “Intangibles”</h2>
-                <img src="images/converse_spli_right.jpeg" alt="Intangible right">
-                <img src="images/converse_spli_top.jpeg" alt="Intangible top">
-                <img src="images/converse_spli_left.jpeg" alt="Intangible left">
-                <img src="images/converse_spli_back.jpeg" alt="Intangible back">
+            <h2>Adidas BAPE Ultraboost</h2>
+                <img src="images/adidas_bape_left.jpg" alt="bape left view"/>
+                <img src="images/adidas_bape_right.jpg" alt="bape right view"/>
+                <img src="images/adidas_bape_back.jpg" alt="bape back view"/>
+                <img src="images/adidas_bape_top.jpg" alt="bape top view"/>
         </section>
 
         <article class="sneakers-description">
                 <h1>Background Information</h1>
-                <p>Converse has released a special edition of its Star Player Low sneaker in a colourway that honors the hardwork and determination of Wes Unseld in the 1978 NBA Finals. After being sweptback in 1971 and 1975, Unseld would play a key role in winning a championship in game seven against the Seattle Supersonics. The game was ended by two free throws from Unseld on his way to the Finals MVP honors. This particular sneaker features an upper canvas in an off white and blue colourway and touches of red can be found on areas of the sneaker such as the classic star logo, the heel tab, the midsole piping of the sneaker and the tongue branding.</p>
-                <p> Moreover,the collection’s sixteen tally in gold is also added onto the white midsole of the sneaker. The sneaker was released on 17th May 2018 and was only available in very limited quantities only. As of now, this particular sneaker is rarely seen on the streets as this particular sneaker is considered to be a very valuable collectible item that could be worth thousands one day in the future. Moreover, this sneaker also gives a vintage vibe look and feel due to its inspiration taken from the 70’s that has been implemented into the design of this sneaker. Read more <a href="https://hypebeast.com/2018/5/converse-star-player-low-intangibles-release-date " target="_blank">here.</a></p>
-                <!--The info and image was taken from https://hypebeast.com/2018/5/converse-star-player-low-intangibles-release-date -->
+                <p>The BAPE Ultraboost sneaker features a PrimeKnit in BAPE’s signature green camo. BAPE is a popular streetwear brand in Japan and is continuing to grow without any sign of stopping as of now. The three stripes branding on the sides of the shoe are covered in a shade of white and the Boost midsole and the outsole, made by using Continental, is in black. The sneaker was released on the 2nd of February 2019, in collaboration with this year’s Super Bowl event. The adidas branding on the left shoe tongue is detailed in gold. A lot of hype was created around this sneaker as Adidas was constantly promoting this sneaker on social media especially on Instagram whereby many celebrities were seen wearing the sneaker in promotional videos for the upcoming superbowl event. Famous artists such as Snoop Dogg, Quavo from the Migos and many more were involved in advertising the upcoming Bape X Adidas UltraBoost collaboration. The sneakers were only released in limited quantities and the resell value of these sneakers are hiking as days pass by. The sneaker was released in two colourways, the classic green BAPE camo and a black camo version. The green camo version of the sneaker is sitting at least at a resell value of $US370 as of now. The retail price of this sneaker was originally priced at an amount of $US250 dollars. Read more <a href="https://sneakernews.com/tag/adidas-yeezy-boost-700/" target="_blank">here.</a></p>
+                <!--This information was taken from https://www.highsnobiety.com/p/bape-adidas-ultra-boost-release-date-price/-->
 
                 <table>
                         <tr>
@@ -59,6 +59,7 @@
                 <p><a class="enquirebutton" href="enquiry.html">RENT NOW!</a></p>
         </article>
 
+
         <aside>
                 <ul>
                     <li>Adidas
@@ -66,7 +67,7 @@
                             <li><a href="yeezytrueform.html">Adidas Yeezy True Form</a></li>
                             <li><a href="yeezywaverunner.html">Adidas Yeezy Wave Runner</a></li>
                             <li><a href="nmdsolarhu.html">Adidas Solar HU</a></li>
-                            <li><a href="bapeultraboost.html">Adidas BAPE Ultraboost</a></li>
+                            <li><a href="bapeultraboost.html" class="active">Adidas BAPE Ultraboost</a></li>
                             <li><a href="nmdcnygold.html">Adidas Pharell NMD HU CNY GOLD</a></li>
                             <li><a href="futurecraft.html">Adidas Futurecraft</a></li>
                         </ol>
@@ -90,7 +91,7 @@
                                  <li><a href="converseallstart.html">Converse Chuck Taylor AllStar(hi Top Sunflower Yellow)</a></li>
                                  <li><a href="conversedrwoo.html">Dr.Woo x Chuck Taylor 'white'</a></li>
                                  <li><a href="converseoffwhite.html">OffWhite x Chuck Taylor</a></li>
-                                 <li><a href="converseintangible.html" class="active">Converse Intangible</a></li>
+                                 <li><a href="converseintangible.html">Converse Intangible</a></li>
                              </ol>
                         </li>
                         <li>
@@ -117,10 +118,10 @@
                 </div>
         
                 <div id="brand-logo-footer">
-                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
                 </div>
         
                 <div id="team-members">

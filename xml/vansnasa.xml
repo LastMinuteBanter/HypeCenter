@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
-        <title>Converse Star Player Low “Intangibles”</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
+        <title>Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -36,18 +36,19 @@
         </header>
 
         <section class="product-img">
-            <h2>Converse Star Player Low “Intangibles”</h2>
-                <img src="images/converse_spli_right.jpeg" alt="Intangible right">
-                <img src="images/converse_spli_top.jpeg" alt="Intangible top">
-                <img src="images/converse_spli_left.jpeg" alt="Intangible left">
-                <img src="images/converse_spli_back.jpeg" alt="Intangible back">
+                <h2>Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</h2>
+                <img src="images/nasa1.jpg" alt="Nasa right"/>
+                <img src="images/nasa2.jpg" alt="Nasa top"/>
+                <img src="images/nasa3.jpg" alt="Nasa left"/>
+                <img src="images/nasa4.jpg" alt="Nasa back"/>
         </section>
 
         <article class="sneakers-description">
                 <h1>Background Information</h1>
-                <p>Converse has released a special edition of its Star Player Low sneaker in a colourway that honors the hardwork and determination of Wes Unseld in the 1978 NBA Finals. After being sweptback in 1971 and 1975, Unseld would play a key role in winning a championship in game seven against the Seattle Supersonics. The game was ended by two free throws from Unseld on his way to the Finals MVP honors. This particular sneaker features an upper canvas in an off white and blue colourway and touches of red can be found on areas of the sneaker such as the classic star logo, the heel tab, the midsole piping of the sneaker and the tongue branding.</p>
-                <p> Moreover,the collection’s sixteen tally in gold is also added onto the white midsole of the sneaker. The sneaker was released on 17th May 2018 and was only available in very limited quantities only. As of now, this particular sneaker is rarely seen on the streets as this particular sneaker is considered to be a very valuable collectible item that could be worth thousands one day in the future. Moreover, this sneaker also gives a vintage vibe look and feel due to its inspiration taken from the 70’s that has been implemented into the design of this sneaker. Read more <a href="https://hypebeast.com/2018/5/converse-star-player-low-intangibles-release-date " target="_blank">here.</a></p>
-                <!--The info and image was taken from https://hypebeast.com/2018/5/converse-star-player-low-intangibles-release-date -->
+                <p>The anticipated NASA x Vans Sk8-Hi MTE DX “Space Voyager - White” sneaker is the Mountain Edition of the classic Sk8-Hi in a special construction inspired by astronaut apparel. This is an official collaboration between Vans and and NASA.This sneaker features a white leather upper with exposed foam details and various NASA patches across the upper of the sneaker. Furthermore, it also features a ribbed texture on the midsole referencing the design of space boots.</p> 
+                <p>This edition of the Sk8-Hi is built with extra insulation and a reverse waffle tread on the outsole has been created to improve traction of the sneakers in inclement conditions. The NASA x Vans Sk8-Hi MTE DX “Space Voyager - White” was released in limited quantities in 2018. There other colourways of the sneaker released which was in a black colourway and low top version of this sneaker were also created for this particular collection.</p>
+                <p>Other items based on the NASA theme were also released such as part of the collection alongside the sneakers. Apparels that were released were such as t shirts and jackets with the NASA branding printed all over the product. Read more <a href="https://www.stadiumgoods.com/sk8-hi-46-mte-dx-vn0a3dq5uq4-mte-space-voygr-tw-mrsh" target="_blank">here.</a></p>
+                <!--The info and image was taken from https://www.stadiumgoods.com/sk8-hi-46-mte-dx-vn0a3dq5uq4-mte-space-voygr-tw-mrsh-->
 
                 <table>
                         <tr>
@@ -90,7 +91,7 @@
                                  <li><a href="converseallstart.html">Converse Chuck Taylor AllStar(hi Top Sunflower Yellow)</a></li>
                                  <li><a href="conversedrwoo.html">Dr.Woo x Chuck Taylor 'white'</a></li>
                                  <li><a href="converseoffwhite.html">OffWhite x Chuck Taylor</a></li>
-                                 <li><a href="converseintangible.html" class="active">Converse Intangible</a></li>
+                                 <li><a href="converseintangible.html">Converse Intangible</a></li>
                              </ol>
                         </li>
                         <li>
@@ -98,7 +99,7 @@
                             <ol>
                                 <li><a href="vansgreen.html">Vans Sk8 Hi Pro Supreme Green Skull Pile</a></li>
                                 <li><a href="vanscheckboard.html">Vans Sk8 Hi Pro Supreme Checkboard</a></li>
-                                <li><a href="vansnasa.html">Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</a></li>
+                                <li><a href="vansnasa.html" class="active">Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</a></li>
                                 <li><a href="vansmastermind.html">Vans x Mastermind x KITH</a></li>
                                 <li><a href="vansmountain.html">Fear of God Vans Mountain Edition 35 DX</a></li>
                                 <li><a href="vanscutandpaste.html">Vans Sk8 Hi “Cut and Paste”</a></li>
@@ -117,10 +118,10 @@
                 </div>
         
                 <div id="brand-logo-footer">
-                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+                    <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                    <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                    <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                    <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
                 </div>
         
                 <div id="team-members">
