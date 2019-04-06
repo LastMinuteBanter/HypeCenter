@@ -1,3 +1,6 @@
+/*Author: Kiwano*/
+/*Purpose: The styling for the entire HypeCenter website*/
+
 body{
     margin:0;
     overflow-x: hidden;
@@ -732,7 +735,6 @@ input[type=submit]:hover,input[type=reset]:hover{
 #profile-content{
     width:80%;
     margin: 0 auto;
-    border:3px solid red;
     overflow: auto;
 }
 
@@ -757,7 +759,7 @@ input[type=submit]:hover,input[type=reset]:hover{
     font-size: 25px;
     float:left;
     text-align: justify;
-    width:70%;
+    width:50%;
 }
 
 #profile-content img{
@@ -773,7 +775,7 @@ input[type=submit]:hover,input[type=reset]:hover{
 #profile-content table {
     clear: both;
     background-color: rgb(245, 245, 220, 1);
-    width:50%;
+    width:70%;
     margin:2% auto;
     border:2px solid black;
 }
