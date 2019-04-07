@@ -10,7 +10,7 @@
             <body>
             <header>
                     <nav>
-                            <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
+                           <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
                 
                             <div class="hamburger-nav">
                                     <label for="toggle">&#9776;</label>
