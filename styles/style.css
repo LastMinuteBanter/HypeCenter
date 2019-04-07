@@ -765,7 +765,7 @@ input[type=submit]:hover,input[type=reset]:hover{
 
 #profile-content table {
     clear: both;
-    background-color: rgb(245, 245, 220, 1);
+    background-color: #F5F5DC;
     width:70%;
     margin:2% auto;
     border:2px solid black;
