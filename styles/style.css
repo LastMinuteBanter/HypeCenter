@@ -640,7 +640,6 @@ input[type=submit]:hover,input[type=reset]:hover{
 /*End of form settings*/
 
 
-
 /*Styling for individual sneaker page*/
 .product-img{
     float:left;
@@ -838,7 +837,6 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
- 
 
 #copyright{
     clear: both;
