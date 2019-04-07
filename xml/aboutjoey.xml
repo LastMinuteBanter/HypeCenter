@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/style.css" >
-        <link rel="icon" href="images/HypeIcon.jpg">
-        <title>About Alvin</title>
-        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="icon" href="images/HypeIcon.jpg"/>
+        <title>About Joey</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
     </head>
     <body>
         <header>
             <nav>
-                <img src="images/HypeCentre.jpg" alt="HypeCenter logo">
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
 
                 <div class="hamburger-nav">
                         <label for="toggle">&#9776;</label>
@@ -37,12 +37,13 @@
 
         <article>
            <div id="profile-content">
-                <h1>Alvin Sim</h1>
+                <h1>Joey Tan </h1>
                 <h2>Course: Bachelor of Computer Science</h2>
-                <h3>Student ID: 101214747</h3>
-                <img src="images/alvinphoto.JPG" alt="Alvin profile pic">
+                <h3>Student ID: 101214653</h3>
+                <img src="images/joeyphoto.JPG" alt="Joey profile pic"/>
+               
+               <p>Hi. My name is Joey and I am a member of the group, Kiwano, for the assignment. Now I would like to share about my and interests. In terms of entertainment, I play video games to relief all the stress I have and as my primary source of entertainment. Aside from that, I do occasionally go out and do sports like hiking. </p>
            
-                <p>Hey there! My name is Alvin and I am the leader of the group, Kiwano, for this assignment. Here, I will share about some of the interests I have. In terms of sport, I am an avid supporter of Liverpool FC, which plays for the English Premier League. During my free time, I would watch the matches that are played by Liverpool and have always dreamt to be able to watch them live one day. Aside from just watching sports, I do take part in Taekwondo and possess a black belt. During my leisure time, I love to listen to Jazz music to relax.</p>
 
            <table>
                <tr>
@@ -51,24 +52,25 @@
                </tr>
 
                <tr>
-                   <td>Standardised the design for brand/catagory pages</td>
-                   <td>The different brand pages had similar designs which were implemented by him. Each page had the same banner design which sat on the header tag of the page and the individual product previews seen on each page was also designed by him to provide an inclusive user experience.</td>
+                    <td>Improve the web page of HypeCenter company</td>
+                    <td>The web page for HypeCenter company is crucial to descript the purpose, how the company works, and the background of the company. He helped in improving the web page to better relay the information of the web page to the visitors.</td>
                </tr>
 
                <tr>
-                   <td>Implemented video overlay in the index.html page</td>
-                   <td>The autoplay video feature was implemented by him as a step to grab the attention of the user in the homepage. The feature was implemented by dividing the header into different divisions and each division was overlayed on top of each other to achieve the look</td>
+                   <td>Design the footer and finds the image of the products</td>
+                   <td>Joey designs the first footer of the web pages to be used in the assignment. He finds the image of the products as well.</td>
                </tr>
+
                <tr>
-                   <td>Implemented the design of a resizable navigation menu</td>
-                   <td>Using online resources, Alvin was able to create a navigation bar that would change to a hamburger menu whenever the window size reaches a certain size. This was done through the use of CSS3 Media queries which changes the CSS formatting on certain elements based on different screen sizes.</td>
+                   <td>Produced half of the product pages with Desmond</td>
+                   <td>Joey worked together with Desmond to produced the webpages for each product. He mainly worked on the product pages for sneakers that are from Adidas and Converse. He mainly worked by assigning the images and information he received from Hans and placed them in the right webpages. </td>
                </tr>
            </table>
 
         </div>
         </article>
         <footer>
-                <p>Email: <a href="mailto:101214747@students.swinburne.edu.my">101214747@students.swinburne.edu.my</a></p>
+                <p>Email: <a href="mailto:101214653@students.swinburne.edu.my">101214653@students.swinburne.edu.my</a></p>
             <div class="footer_list">
                 <ul>
                     <li><a href="abouthypecenter.html">About HypeCenter</a></li>
@@ -79,10 +81,10 @@
             </div>
     
             <div id="brand-logo-footer">
-                <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
-                <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"></a>
-                <a href="converse.html"><img src="images/converse.png" alt="converse logo"></a>
-                <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"></a>
+                <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
             </div>
     
             <div id="team-members">

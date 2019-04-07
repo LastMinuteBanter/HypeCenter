@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+        <link rel="icon" href="images/HypeIcon.jpg"/>
+        <title>About Desmond</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
+
+                <div class="hamburger-nav">
+                        <label for="toggle">&#9776;</label>
+                        <input type="checkbox" id="toggle"/>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li>Brands
+                                    <ul>
+                                        <li><a href="adidas.html">Adidas</a></li>
+                                        <li><a href="converse.html">Converse</a></li>
+                                        <li><a href="nike.html">Nike</a></li>
+                                        <li><a href="vans.html">Vans</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="enquiry.html">Enquire</a></li>
+                                <li><a href="abouthypecenter.html">About Us</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <article>
+           <div id="profile-content">
+                <h1>Desmond Sim </h1>
+                <h2>Course: Bachelor of Computer Science</h2>
+                <h3>Student ID: 101214462</h3>
+                <img src="images/desmondphoto.JPG" alt="Desmond profile pic"/>
+				
+				<p>Hey there! My name is Desmond and I'm one of the member of the group, Kiwano. In terms of sport, I'm a badminton player and I've play badminton for 12 years. Besides badminton, my second favourite sport is basketball. My favourite basketball player is James Harden, who plays for the Houston Rocket basketball team as their shooting guard. During my leisure time, I indulge myself in computer games, mainly the game League of Legends.</p>
+
+           <table>
+               <tr>
+                   <th>Contribution</th>
+                   <th>Explanation</th>
+               </tr>
+
+               <tr>
+                   <td>Designed the navigation menu used for all web pages</td>
+                   <td>Desmond was tasked to produce a navigation menu that would be easy for the user to navigate the website. He started off by aligning the company logo on the left side of the navigation bar and created the navigation menu using an unordered list. Aside from that, he created the dropdown menu feature by using nested lists. </td>
+               </tr>
+
+               <tr>
+                   <td>Standardised the design for the individual product pages</td>
+                   <td>Each product page had the same design and arrangement in order to have the same visual identity. Desmond suggested the design of the product pages to the team and he highlighted on the arrangement of each element. </td>
+               </tr>
+
+               <tr>
+                   <td>Co-produced half the product pages with Joey</td>
+                   <td>In order to quicken the process of producing the product pages, Desmond helped to produce some of the product pages, mainly product pages containing sneakers from Nike and Vans. He ensured that the webpages follow the same design guideline and placed the images and background information for each sneaker. </td>
+               </tr>
+           </table>
+
+        </div>
+        </article>
+        <footer>
+                <p>Email: <a href="mailto:101214462@students.swinburne.edu.my">101214462@students.swinburne.edu.my</a></p>
+            <div class="footer_list">
+                <ul>
+                    <li><a href="abouthypecenter.html">About HypeCenter</a></li>
+                    <li><a href="enquiry.html">Enquire Products</a></li>
+                    <li><a href="enhancements.html">Enhancements</a></li>
+                </ul>
+            
+            </div>
+    
+            <div id="brand-logo-footer">
+                <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"/></a>
+                <a href="nike.html"><img src="images/nikelogo.png" alt="nike logo"/></a>
+                <a href="converse.html"><img src="images/converse.png" alt="converse logo"/></a>
+                <a href="vans.html"><img src="images/vanslogo.jpg" alt="vans logo"/></a>
+            </div>
+    
+            <div id="team-members">
+            <h3>Team Profiles</h3>
+                <ul>
+                    <li><a href="aboutalvin.html">Alvin</a></li>
+                    <li><a href="aboutdesmond.html">Desmond</a></li>
+                    <li><a href="aboutjoey.html">Joey</a></li>
+                    <li><a href="abouthans.html">Hans</a></li>
+                </ul>
+            </div>
+                    
+            <div id="copyright">
+                <p>&#169;2019 Kiwano | <a href="disclaimer.html">Disclaimer</a> | Last Updated: 1/4/2019</p>
+            </div>
+            
+        </footer>
+        </body>
+</html>
