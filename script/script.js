@@ -15,7 +15,7 @@ function getShoe(){
 }
 
 function init(){
-    getShoe()
+    getShoe();
 }
 
 window.onload = init;

@@ -55,7 +55,7 @@
                         </tr>
                 </table>
 
-                <p><a class="enquirebutton" href="enquiry.html">RENT NOW!</a></p>
+                <p><a class="enquirebutton" href="enquiry.html" onclick="return validateClick()">RENT NOW!</a></p>
         </article>
 
        <aside>
