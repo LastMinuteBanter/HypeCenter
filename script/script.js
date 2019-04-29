@@ -21,7 +21,7 @@ function getSelectedOption(){
     getShoe();
 }
 
-function addOptions(){
+function addOptions(){ //add options in select tag
     var shoes = ["Yeezy True Form", "Yeezy Wave Runner","NMD Solar Hu CNY","Bape Ultraboost","Pharell CNY Gold","Future Craft","Levi's Air Jordan 4","AJ1 OFF-White Chicago","Air Max 1/97 Sean Wotherspoon","AJ4 Travis Scott","Air Yeezy 2 Red Octobers","AJ13 Terracotta Warrior","CDG X Chuck Taylor 1970 Low 'play' ","NBA x Chuck Taylor CHi","Chuck Taylor Allstar","Dr. Woo x Chuck Taylor 'white'","OffWhite x Chuck Taylor","Intangible","Sk8 Pro Supreme Green Skull Pile","Sk8 Hi Pro Supreme Checkboard","Sk8 Hi 46 MTE DX Nasa Space Voyager","Vans X Mastermind X Kith","Fear of God Vans Mountain Edition 35 DX","Sk8 HI 'Cut and Paste'"]
 
     var brands =["Nike","Converse","Vans"]
@@ -43,7 +43,7 @@ function addOptions(){
 }
 
 function init(){
-    var shoe1_model = document.getElementById("shoe1_model");
+    var shoe1_model = document.getElementById("shoe1_model"); //assign form to shoe1_model
     shoe1_model.onchange = getSelectedOption;
     addOptions();
     getShoe();
