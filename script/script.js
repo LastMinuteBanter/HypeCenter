@@ -65,13 +65,14 @@ function checkname(){
 	if (firstname=="" || lastname==""){
         ErrorMessage = ErrorMessage + "Please enter your name\n"
 		nameOk=false;
-
-	}else {
+    }else {
 		if (!pattern.test(firstname) || !pattern.test(lastname)){
             ErrorMessage = ErrorMessage + "Your name must contain alpha characters\n"
-			nameOk = false;
+            nameOk = false;
 		}
-	}
+    }
+    sessionStorage.fname = firstname;
+    sessionStorage.lname = lastname;
 	return nameOk;
 }
 
@@ -82,10 +83,10 @@ function checkEmail() {
 	if (!pattern.test(email)){
 		emailok = false;
 		ErrorMessage = ErrorMessage + "Please enter a valid email address\n"
-	}
-   else{  
+	}else{  
 		emailok = true;
-	}
+    }
+    sessionStorage.email = email;
 	return emailok;
 }
 
@@ -100,6 +101,7 @@ function checkPhone(){
     }else{
         phoneOk = true;
     }
+    sessionStorage.phone = phone;
     return phoneOk;
 }
 
@@ -116,6 +118,7 @@ function check_street_address(){
     }else{
         add_ok = true;
     }
+    sessionStorage.street_add = street_add;
     return add_ok;
 }
 
@@ -130,6 +133,7 @@ function check_town(){
     }else{
         town_ok =true;
     }
+    sessionStorage.town = town;
     return town_ok;
 }
 
@@ -143,6 +147,7 @@ function checkstate(){
     }else{
         stateOk = true;
     }
+    sessionStorage.state = state;
     return stateOk;
 }
 
@@ -156,6 +161,7 @@ function check_post (){
     }else{
         post_ok = true;
     }
+    sessionStorage.postcode = postcode;
     return post_ok;
 
 }
@@ -168,13 +174,14 @@ function shoeselected(){
         ErrorMessage = ErrorMessage + "Please select a shoe\n"
 	}else{
 		selected = true;
-	}
+    }
+    sessionStorage.selected = selected;
 	return selected;
 }
 
 function colourselected(){
     var colour = document.getElementById("shoe1_colour_way").value;
-	var pattern = /^[a-z\d\-_\s]+$/
+	var pattern = /^(?=.*\d)(?=.*[a-zA-Z]).{2,}$/
 	var colourOk = true;
 	if (colour==""){
         ErrorMessage = ErrorMessage + "Please enter a shoe colour\n"
@@ -185,7 +192,8 @@ function colourselected(){
             ErrorMessage = ErrorMessage + "Your shoe colour be alphanumeric\n"
 			colourOk = false;
 		}
-	}
+    }
+    sessionStorage.colour = colour;
 	return colourOk;
 }
 
@@ -200,10 +208,11 @@ function sizeselected(){
     } else{
         if(size_to_int>=7 && size_to_int<=10){
             size_select = true;
-        } else{
+        }else{
         size_select = false;
         ErrorMessage = ErrorMessage + "Please only enter sizes between 7 and 10\n"
     }
+    sessionStorage.size = size;
     return size_select;
 }
 }
@@ -216,16 +225,19 @@ function durationselected(){
     if(duration==""){
         duration_select = false;
         ErrorMessage = ErrorMessage + "Please enter a duration\n"
-    } else{
+    }else{
         if(duration_to_int>=1 && duration_to_int<=7){
             duration_select = true;
-        } else{
+        }else{
         duration_select = false;
         ErrorMessage = ErrorMessage + "Please only enter duration between 1 and 7\n"
     }
+    sessionStorage.duration = duration;
     return duration_select;
+ }
 }
-}
+
+
 
 function validateform(){
     var nameOk = checkname();
@@ -243,14 +255,17 @@ function validateform(){
 
 
     if(nameOk&&emailOk&&phoneOk&&strOk&&town_ok&&stateOk&&postOk&&shoeOk&&colourOk&&sizeOk&&durationOk){
-        allfilled = true;
+        allfilled = true;   
+        window.open("enquiryConfirm.html","_blank","width=1000,height=1000");     
     }else{
         alert(ErrorMessage);
         allfilled = false;
         ErrorMessage = "";
     }
+    
     return allfilled;
 }
+
 
 //Below are functions related to enhancements
 
@@ -278,14 +293,15 @@ function scrollFunction() {
 
 function init(){
     highlightpage();
-    var shoe1_model = document.getElementById("shoe1_model"); //assign selection for shoe as shoe1_model
-    shoe1_model.onchange = getSelectedOption;
-
-    var form = document.getElementById("survey");
-    form.onsubmit = validateform;
     addOptions();
     getShoe();
+    var shoe1_model = document.getElementById("shoe1_model"); //assign selection for shoe as shoe1_model
+    shoe1_model.onchange = getSelectedOption;
+    
+    var form = document.getElementById("survey");
+    form.onsubmit = validateform;
 }
 
 window.onload = init;
 window.onscroll = function() {scrollFunction()};
+
