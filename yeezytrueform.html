@@ -40,11 +40,23 @@
         
             <section class="product-img">
                 <h2>Adidas Yeezy True Form</h2>
-                <img src="images/adidas_yeezy_tf_left.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_tf_right.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_tf_back.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_tf_top.jpg" alt="yeezy side view">
+                <img src="images/adidas_yeezy_tf_left.jpg" id="img01"  alt="yeezy side view">
+                <img src="images/adidas_yeezy_tf_right.jpg" id="img02"  alt="yeezy side view">
+                <img src="images/adidas_yeezy_tf_back.jpg" id="img03"  alt="yeezy side view">
+                <img src="images/adidas_yeezy_tf_top.jpg" id="img04"  alt="yeezy side view">
             </section>
+
+            <div id="image_modal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+    
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img_content">
+    
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+            </div>
 
         <article class="sneakers-description">
                 <h1>Background Information</h1>
@@ -112,14 +124,18 @@
                 </ul>
             </aside>
             <footer>
-                <div class="footer_list">
+                <div class="footer_list">     
+                <ul>
+                    <li><a href="abouthypecenter.html">About HypeCenter</a></li>
+                    <li><a href="enquiry.html">Enquire Products</a></li>
+                    <li><a href="enhancements.html"> Enhancements</a></li>
+                </ul>   
+            </div>
+            <div class="footer_list">
                     <ul>
-                        <li><a href="abouthypecenter.html">About HypeCenter</a></li>
-                        <li><a href="enquiry.html">Enquire Products</a></li>
-                        <li><a href="enhancements.html">Enhancements</a></li>
+                        <li><a href="enhancements2.html">Assignment 2 Enhancements</a></li>
                     </ul>
-                
-                </div>
+            </div>
         
                 <div id="brand-logo-footer">
                     <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
@@ -143,5 +159,6 @@
                 </div>
                 
             </footer>
+            <script src="script/enhancement.js"></script>
             </body>
 </html>

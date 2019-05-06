@@ -39,11 +39,24 @@
 
         <section class="product-img">
                 <h2>Adidas Yeezy Wave Runner</h2>
-                <img src="images/adidas_yeezy_wr_left.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_wr_right.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_wr_back.jpg" alt="yeezy side view">
-                <img src="images/adidas_yeezy_wr_top.jpg" alt="yeezy side view">
+                <img src="images/adidas_yeezy_wr_left.jpg" id="img01"  alt="yeezy side view">
+                <img src="images/adidas_yeezy_wr_right.jpg" id="img02"  alt="yeezy side view">
+                <img src="images/adidas_yeezy_wr_back.jpg" id="img03"  alt="yeezy side view">
+                <img src="images/adidas_yeezy_wr_top.jpg" id="img04"  alt="yeezy side view">
         </section>
+
+        <div id="image_modal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img_content">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+        </div>
+
         <article class="sneakers-description">
                 <h1>Background Information</h1>
                 <p>The Yeezy 700’s is another sneaker created throughout the collaboration between Kanye West and Adidas. The sneaker is designed by Kanye West himself. The Waverunner colorway was only available exclusively through the online store called Yeezy Supply and the sneakers were only available in limited quantities. This particular sneaker happens to be one of the many sneakers that has sparked the dad shoe trend and has been becoming extremely popular among the younger generation. Other sneakers besides the YEEZY BOOST 700 that has spark the dad shoe trend are such as the Gucci Rhython and the Balenciaga Triple S were one of the very few sneakers that were considered pioneers towards this new trend.</p>
@@ -108,14 +121,18 @@
            </ul>
        </aside> 
        <footer>
-        <div class="footer_list">
-            <ul>
-                <li><a href="abouthypecenter.html">About HypeCenter</a></li>
-                <li><a href="enquiry.html">Enquire Products</a></li>
-                <li><a href="enhancements.html">Enhancements</a></li>
-            </ul>
-        
-        </div>
+        <div class="footer_list">     
+                <ul>
+                    <li><a href="abouthypecenter.html">About HypeCenter</a></li>
+                    <li><a href="enquiry.html">Enquire Products</a></li>
+                    <li><a href="enhancements.html"> Enhancements</a></li>
+                </ul>   
+            </div>
+            <div class="footer_list">
+                    <ul>
+                        <li><a href="enhancements2.html">Assignment 2 Enhancements</a></li>
+                    </ul>
+            </div>
 
         <div id="brand-logo-footer">
             <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
@@ -139,5 +156,6 @@
         </div>
         
     </footer>
+    <script src="script/enhancement.js"></script>
     </body>
 </html>

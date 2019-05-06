@@ -39,11 +39,23 @@
 
         <section class="product-img">
             <h2>Levi's Air Jordan 4</h2>
-                <img src="images/levisright.jpg" alt="Levi shoe right">
-                <img src="images/leviside.jpg" alt="levi shoe side">
-                <img src="images/levisback.jpg" alt="levi shoe back">
-                <img src="images/levisbottom.jpg" alt="levi shoe bottom">
+                <img src="images/levisright.jpg" id="img01"  alt="Levi shoe right">
+                <img src="images/leviside.jpg" id="img02"  alt="levi shoe side">
+                <img src="images/levisback.jpg" id="img03"  alt="levi shoe back">
+                <img src="images/levisbottom.jpg" id="img04"  alt="levi shoe bottom">
         </section>
+
+        <div id="image_modal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img_content">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+        </div>
 
         <article class="sneakers-description">
                 <h1>Background Information</h1>
@@ -110,14 +122,18 @@
                 </ul>
             </aside>
             <footer>
-                <div class="footer_list">
+                <div class="footer_list">     
+                <ul>
+                    <li><a href="abouthypecenter.html">About HypeCenter</a></li>
+                    <li><a href="enquiry.html">Enquire Products</a></li>
+                    <li><a href="enhancements.html"> Enhancements</a></li>
+                </ul>   
+            </div>
+            <div class="footer_list">
                     <ul>
-                        <li><a href="abouthypecenter.html">About HypeCenter</a></li>
-                        <li><a href="enquiry.html">Enquire Products</a></li>
-                        <li><a href="enhancements.html">Enhancements</a></li>
+                        <li><a href="enhancements2.html">Assignment 2 Enhancements</a></li>
                     </ul>
-                
-                </div>
+            </div>
         
                 <div id="brand-logo-footer">
                     <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
@@ -141,5 +157,6 @@
                 </div>
                 
             </footer>
+            <script src="script/enhancement.js"></script>
             </body>
 </html>

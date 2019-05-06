@@ -7,7 +7,6 @@
         <title>Nike Air Max 1/97</title>
         <meta name="viewport" content="width=device-width, initial-scale-1.0">
         <script src="script/script.js"></script>
-        <script src="script/script.js"></script>
     </head>
     <body>
         <header>
@@ -39,11 +38,24 @@
 
         <section class="product-img">
                 <h2>Nike Air Max 1/97 Sean Wotherspoon</h2>
-                <img src="images/swright.jpg" alt="Air MAx right">
-                <img src="images/swside.jpg" alt="Air max side">
-                <img src="images/swback.jpg" alt="air max back">
-                <img src="images/swbottom.jpg" alt="air max bottom">
+                <img src="images/swright.jpg" id="img01" alt="Air MAx right">
+                <img src="images/swside.jpg" id="img02" alt="Air max side">
+                <img src="images/swback.jpg"  id="img03" alt="air max back">
+                <img src="images/swbottom.jpg" id="img04" alt="air max bottom">
         </section>
+
+        <!-- Div for modal of image gallery -->
+        <div id="image_modal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img_content">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+        </div>
 
         <article class="sneakers-description">
                 <h1>Background Information</h1>
@@ -112,14 +124,18 @@
                 </ul>
             </aside> 
             <footer>
-                <div class="footer_list">
+                <div class="footer_list">     
+                <ul>
+                    <li><a href="abouthypecenter.html">About HypeCenter</a></li>
+                    <li><a href="enquiry.html">Enquire Products</a></li>
+                    <li><a href="enhancements.html"> Enhancements</a></li>
+                </ul>   
+            </div>
+            <div class="footer_list">
                     <ul>
-                        <li><a href="abouthypecenter.html">About HypeCenter</a></li>
-                        <li><a href="enquiry.html">Enquire Products</a></li>
-                        <li><a href="enhancements.html">Enhancements</a></li>
+                        <li><a href="enhancements2.html">Assignment 2 Enhancements</a></li>
                     </ul>
-                
-                </div>
+            </div>
         
                 <div id="brand-logo-footer">
                     <a href="adidas.html"><img src="images/adidas.png" alt="adidas logo"></a>
@@ -143,5 +159,6 @@
                 </div>
                 
             </footer>
+            <script src="script/enhancement.js"></script>
             </body>
 </html>

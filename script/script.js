@@ -168,14 +168,15 @@ function check_post (){
 
 function shoeselected(){
 	var selected = false;
-	var shoe = document.getElementById("shoe1_model").value;
+    var shoe = document.getElementById("shoe1_model").value;
 	if (shoe=="first"){
         selected = false;
         ErrorMessage = ErrorMessage + "Please select a shoe\n"
 	}else{
 		selected = true;
     }
-    sessionStorage.selected = selected;
+    sessionStorage.selected = shoe;
+    sessionStorage.shoe = shoe;
 	return selected;
 }
 
@@ -237,6 +238,10 @@ function durationselected(){
  }
 }
 
+function store_comment_subject(){
+    sessionStorage.comment= document.getElementById("comments").value;
+    sessionStorage.subject = document.getElementById("subject").value;
+}
 
 
 function validateform(){
@@ -255,7 +260,8 @@ function validateform(){
 
 
     if(nameOk&&emailOk&&phoneOk&&strOk&&town_ok&&stateOk&&postOk&&shoeOk&&colourOk&&sizeOk&&durationOk){
-        allfilled = true;   
+        allfilled = true;
+        store_comment_subject();
         window.open("enquiryConfirm.html","_blank","width=1000,height=1000");     
     }else{
         alert(ErrorMessage);
@@ -267,32 +273,9 @@ function validateform(){
 }
 
 
-//Below are functions related to enhancements
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("topBtn").style.display = "block";
-    } else {
-      document.getElementById("topBtn").style.display = "none";
-    }
-  }
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-  
-  function highlightpage(){
-    for (var i = 0; i < document.links.length; i++) {
-      if (document.links[i].href == document.URL) {
-          document.links[i].className = 'active';
-      }}
-  }
-  
 
 function init(){
-    highlightpage();
     addOptions();
     getShoe();
     var shoe1_model = document.getElementById("shoe1_model"); //assign selection for shoe as shoe1_model
@@ -303,5 +286,5 @@ function init(){
 }
 
 window.onload = init;
-window.onscroll = function() {scrollFunction()};
+
 
