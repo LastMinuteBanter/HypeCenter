@@ -37,9 +37,28 @@
 
                 <article id="disclaimer-and-enhancement-content">
                     <h1>Assignment 2 Enhancements</h1>
-                    <h2>1. Autoplaying video in index.html </h2>
-                    
+                    <h2>1. Pop up preview page prior to form submission </h2>
+                    <p>After the visitor has completed enquiry form and fulfilled all the requirements, a window will pop up which showcases a summary of the information that they have entered. The information shown on the pop-up window is done with the use of session storage. From this page, they can choose to submit the form or cancel it. The window will close when the user successfully submits the form or cancels it. </p>
 
+                    <p>This feature is mainly implemented with the use of Session Storage to store the information entered. Firstly, the confirmation page has to be created and is styled. A <code>form</code> tag is created and <code></code>tags are inserted, to function as labels to the information such as name, email and address. Next, a <code>span</code> tag is inserted into the paragraph tag and assigned with different IDs to act as the blanks to be filled.</p>
+
+                    <p>In Javascript, the values entered by the visitor into the form are stored in session storage by assigning it with the HTML DOM. An example would be <code>sessionStorage.fname = document.getElementById("firstname").value</code>. Once it is stored, a function is created to assign the text values of the span tags with the session Storage. </p>
+
+                    <p>A <code>function fill_summary()</code> is created and the values are stored by assigning the values, for example, <code>document.getElementById("confirm_fname").textContent = sessionStorage.fname;</code>. Next, another function <code>validate()</code> is created to indicate if the values are valid. This is done by creating a variable <code>result=true;</code> and if the value is true, an alert message would pop up indicating the booking is successful. If not, the alert message would say it is unsuccessful. If the visitor were to cancel the form, the cancel button would call the function <code>window.close()</code>.</p>
+
+                    <p>This feature can be seen after entering the values in the <a href="enquiry.html">enquiry page</a> which would lead to the <a href="enquiryConfirm.html">confirmation page</a>. This feature was mainly based on the lab exercises but the technique to create a pop up page was sourced from <a href="https://www.w3schools.com/jsref/met_win_open.asp">here</a></p>
+
+                    <h2>2. Image Gallery Preview</h2>
+
+                    <p>When the visitor</p>
+
+                    <p>This feature was based on a tutorial posted by w3schools which can be found <a href="https://www.w3schools.com/howto/howto_css_modal_images.asp">here</a></p>
+
+                    <h2>3. Back to Top Button</h2>
+
+                    <h2>4. Automatically highlight pages in navigation bar</h2>
+
+                    <h2>5. Regular Expressions used in form validation</h2>
 
                 </article>
 

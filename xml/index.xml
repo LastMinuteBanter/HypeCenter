@@ -6,10 +6,11 @@
         <link rel="icon" href="images/HypeIcon.jpg"/>
         <title>HypeCenter</title>
         <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
-
+        <script src="script/enhancement.js"></script>
     </head>
 
     <body>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
         <header>
             <nav>
                 <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
@@ -19,7 +20,7 @@
                         <input type="checkbox" id="toggle"/>
                         <div class="menu">
                             <ul>
-                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li>Brands
                                     <ul>
                                         <li><a href="adidas.html">Adidas</a></li>
@@ -68,8 +69,8 @@
 
         <section id="promotional-card-container">
                 <div class="promotional-card">
-                        <h2>Promotional Item</h2>
-                        <img src="images/event_image.jpg" alt="Yeezy True Form"/>
+                        <h2>Events</h2>
+                        <img src="images/event_image.jpg" alt="Events"/>
                         <p>We're always open for events!<br/><br/><a href="enquiry.html" target="_blank">Enquire</a></p>
                     </div>
 
@@ -81,8 +82,8 @@
 
             <div class="promotional-card">
                 <h2>Vouchers</h2>
-                <img src="images/voucher.jpg" alt="Image of event"/>
-                <p>Keep an eye out for our vouchers here!<br/><br/><a href="adidas.html" target="_blank">CHECK IT OUT</a></p>
+                <img src="images/voucher.jpg" alt="voucher"/>
+                <p>Keep an eye out for our vouchers here!<br/><br/><a href="enquiry.html" target="_blank">Learn More</a></p>
             </div>
     </section>
     
