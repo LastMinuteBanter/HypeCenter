@@ -6,9 +6,10 @@
         <link rel="icon" href="images/HypeIcon.jpg"/>
         <title>Enhancements</title>
         <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
+        <script src="script/enhancement.js"></script>
     </head>
     <body>
-
+            <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
             <header>
                     <nav>
                         <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>

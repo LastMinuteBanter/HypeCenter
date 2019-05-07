@@ -6,7 +6,7 @@
         <link rel="icon" href="images/HypeIcon.jpg"/>
         <title>About Alvin</title>
         <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
-        <script src="script/script.js"></script>
+        <script src="script/enhancement.js"></script>
     </head>
     <body>
         <header>

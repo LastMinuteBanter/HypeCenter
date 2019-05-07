@@ -1,4 +1,6 @@
 
+
+//Function to fill in the confirmation page using values from each sessionstorage
 function fill_summary(){
   document.getElementById("confirm_fname").textContent = sessionStorage.fname;
   document.getElementById("confirm_lname").textContent = sessionStorage.lname;
@@ -16,6 +18,8 @@ function fill_summary(){
   document.getElementById("confirm_desc").textContent = sessionStorage.comment;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+
 function validate(){
   var errMsg = "";
   /* stores the error message */
@@ -30,14 +34,23 @@ function validate(){
   //if false the information will not be sent to the server}
 }
 
+
+//cancel booking button
 function cancel_book(){
   window.close();
 }
 
 
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+//Function to display "back to top" button when page is scrolled down
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("topBtn").style.display = "block";
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {//If scrolled pass 20 px
+      document.getElementById("topBtn").style.display = "block";//Change the styling of the button to block
     } else {
       document.getElementById("topBtn").style.display = "none";
     }
@@ -48,6 +61,9 @@ function scrollFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+
+  ////////////////////////////////////////////////////////////////////////////////
   
   //Highlights the page in the navigation bar when applicable
   function highlightpage(){
@@ -58,21 +74,30 @@ function scrollFunction() {
   }
 
 
-  
+////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 function init(){
   
-    var path = window.location.pathname;
-    var page = path.split("/").pop();
+    var path = window.location.pathname; //Obtain the page name
+    var page = path.split("/").pop();//Splits out the slashes
+
+    //If statement below tests if the page is the confirmation page
+    //If it is, it will run the fill_summary() which is exclusive for that page only
     if(page=="enquiryConfirm.html"){
       fill_summary();
 
       if(confirm_survey){
-        confirm_survey.onsubmit = validate;
+        confirm_survey.onsubmit = validate;//If confirm button is pressed, run the validate function
         
       }else{
-          cancel_survey.onclick = cancel_book;
+          cancel_survey.onclick = cancel_book;//If cancel button is pressed, run the cancel_book function
       }
     }
+
+
     highlightpage();//call function to highlight page in navigation bar
     
     //Methods below are used to perform the pop-up gallery feature for the product pages
@@ -119,9 +144,7 @@ function init(){
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
     }
-    
 
-    
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
@@ -129,7 +152,7 @@ function init(){
 
 }
 
-
+///////////////////////////////////////////////////////////////////////////////////////
 
 window.onload = init;
-window.onscroll = function() {scrollFunction();};
+window.onscroll = function() {scrollFunction();};//When the page is being scrolled, the scrollfunction() will take place
