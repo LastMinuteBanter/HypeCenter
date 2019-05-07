@@ -137,7 +137,7 @@
                                 </tr>
                             </table> 
                             
-                            <br>
+                            <br/>
                             
                         </fieldset>
                     
@@ -150,7 +150,7 @@
                         <label>Enter description below:
                             <br/>
                             <textarea name="comments" id="comments" placeholder="Enter your comments here"  cols="80" rows="10"></textarea>
-                        </label>	
+                            </label>
                     </fieldset>
 
                     <input type="reset" value="Reset"/>

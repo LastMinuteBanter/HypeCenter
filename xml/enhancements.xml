@@ -50,7 +50,7 @@
 
                     <p>This feature can be found in the <a href="index.html">homepage</a>.</p>
 
-                    <br>
+                    <br/>
                     <h2>2. Responsive Navigation menu</h2>
                     <p>As stated by the assignment guidelines, a menu containing links to other parts of the website needs to be implemented. Aside from just creating a normal navigation menu, our team has implemented a navigation menu that would resize based on the window size of the browser. This helps to give the navigation menu a cleaner look even if the window size is smaller than usual.</p>
 
@@ -60,7 +60,7 @@
 
                     <p>The feature can be tested on the <a href="index.html#toggle" target="_blank">index page</a> by resizing the page </p>
 
-                   <br> 
+                   <br/> 
                     <h2>3. Product Image Hover Effect</h2>
                     <p>Aside from just implementing static images for products in the brand pages, the team have made each of the products on their respective brand pages to be hoverable and show a link to their individual product pages. This allows the webpage to feel more interactive for the users.</p>
 
@@ -70,7 +70,7 @@
 
                     <p>This feature can be tested on one of the <a href="adidas.html" target="_blank">brand pages</a> by hovering on the sneakers shown.</p>
 
-                    <br>
+                    <br/>
                     <h2>4. Image Parallax Effect on Scroll</h2>
                     <p>For all the brand pages, the banner found in the header tag of the webpages is a static background image that is at a fixed position whenever the page is being scrolled up or down. The parallax effect gives the impression that the webpage contains 2 different layer of content overlaying on top of one another which makes the a more immersive user experience.</p>
 
