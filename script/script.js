@@ -1,4 +1,10 @@
-
+/*Filename: script.js
+Target html: [productpages].html,enquiry.html
+Purpose: Mainly used for form filling and validation
+Author:Kiwano
+Date written: 26 April 2019
+Revisions: Addition of Comments, 8/5/2019
+*/
 
 function storeShoe (shoename){ 
     //Storing the current shoe name to session storage
@@ -138,7 +144,7 @@ function checkPhone(){
 //Street Address validation
 function check_street_address(){
     var street_add = document.getElementById("street_address").value;
-    var pattern =  /^\s*\S+(?:\s+\S+){2}/
+    var pattern =  /^[a-zA-Z0-9\s,.'-]{3,40}$/  //maximum of 50 chars
     var add_ok = false;
 
     if(!pattern.test(street_add)){
@@ -157,7 +163,7 @@ function check_street_address(){
 //Town validation
 function check_town(){
     var town = document.getElementById("town").value;
-    var pattern = /^[a-zA-Z ]+$/ //Town name can only contain alphabets
+    var pattern = /^[a-zA-Z ]{0,20}$/ //Town name can only contain alphabets and maximum 25 chars
     var town_ok=false;
 
     if(!pattern.test(town)){//test if the value fulfills the pattern

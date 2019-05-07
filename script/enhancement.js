@@ -1,4 +1,10 @@
-
+/*Filename: enhancement.js
+Target html: all pages except enquiry.html
+Purpose: Mainly used for enhancement functions
+Author:Kiwano
+Date written: 30 April 2019
+Revisions: Addition of Comments, 8/5/2019
+*/
 
 //Function to fill in the confirmation page using values from each sessionstorage
 function fill_summary(){
