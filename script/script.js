@@ -351,8 +351,7 @@ function validateform(){
 
     //Checks if all values are true
     if(nameOk&&emailOk&&phoneOk&&strOk&&town_ok&&stateOk&&postOk&&shoeOk&&colourOk&&sizeOk&&durationOk&&subjectOk){
-        allfilled = true;
-        window.open("enquiryConfirm.html","_blank","width=1000,height=1000"); //Triggers the confirmation page
+        allfilled = true; //Triggers the confirmation page
     }else{
         alert(ErrorMessage);
         allfilled = false;

@@ -630,7 +630,7 @@ form{
     width:100%;
 }
 
-fieldset{
+fieldset,#view_enquiry_field{
     color:white;
     margin:5% 3%;
     background-color:rgba(0, 0, 0, 0.7);
@@ -942,6 +942,23 @@ footer a:hover{
     font-size: 23px;
 }
 
+#view_enquiry_table {
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+#view_enquiry_table th,#view_enquiry_table td{
+    border:3px solid white;
+    text-align: center;
+}
 
+#view_enquiry_field{
+    width:90%;
+    margin:0 auto;
+}
+
+#view_enquiry_article{
+    background-image: url(images/adult-asking-blur-630839.jpg);
+}
 
 /*End of styling*/

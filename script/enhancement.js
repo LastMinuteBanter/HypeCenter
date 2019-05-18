@@ -33,7 +33,6 @@ function validate(){
   /* assumes no errors */
   if(result){        
       alert("Booking Successfully, Press 'OK' to exit this window");
-      window.close();
   }else{        
       alert("Booking Failed");
   }return result;
@@ -92,7 +91,7 @@ function init(){
 
     //If statement below tests if the page is the confirmation page
     //If it is, it will run the fill_summary() which is exclusive for that page only
-    if(page=="enquiryConfirm.html"){
+    if(page=="enquiryConfirm.php"){
       fill_summary();
 
       if(confirm_survey){

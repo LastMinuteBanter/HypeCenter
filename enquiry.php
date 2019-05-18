@@ -8,7 +8,6 @@
             <script src="script/script.js"></script>
     </head>
     <body>
-    <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
     <header>
         <nav>
             <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
@@ -39,18 +38,18 @@
                 <h1 id="enquiry-us">ENQUIRIES</h1>
 
             <div id="form-background">
-                <form id="survey" method="post" novalidate="novalidate">
+                <form id="survey" method="post" novalidate="novalidate" action="enquiryConfirm.php">
                     <fieldset id="personal_details_field">
                         <legend>Personal Details:</legend>
                         
                         <table>
                             <tr>
                                 <td><label for="firstname">First Name:</label></td>
-                                <td><input type = "text" name="firstname" placeholder="Your name" id="firstname" required="required" maxlength="25" pattern="[a-zA-Z]+"/></td>
+                                <td><input type = "text" name="firstname" placeholder="Your name" id="firstname" required="required" pattern="[a-zA-Z]+"/></td>
                             </tr>
                             <tr>
                                 <td><label for="lastname">Last Name:</label></td>
-                                <td><input type = "text" name="lastname" placeholder="Your name" id="lastname" required="required" maxlength="25" pattern="[a-zA-Z]+"/></td>
+                                <td><input type = "text" name="lastname" placeholder="Your name" id="lastname" required="required"  pattern="[a-zA-Z]+"/></td>
                             </tr>
 
                             <tr>
@@ -60,7 +59,7 @@
 
                             <tr>
                                 <td><label for="c_contact"> Mobile Number:</label></td>
-                                <td><input type = "text" name="pcontact" required="required" id="c_contact" maxlength="10" placeholder="0123456789"/></td>
+                                <td><input type = "text" name="pcontact" required="required" id="c_contact"  placeholder="0123456789"/></td>
                             </tr>
                             
                             
@@ -72,11 +71,11 @@
                         <table>
                             <tr>
                                 <td><label for="street_address">Street Address</label></td>
-                                <td><input type="text" id="street_address" name="street_address" maxlength="40" size="40"/></td>
+                                <td><input type="text" id="street_address" name="street_address" size="40"/></td>
                             </tr>
                             <tr>
                                 <td><label for="town">City/Town: </label></td>
-                                <td><input type="text" id="town" name="town" maxlength="20" size="40"/></td>
+                                <td><input type="text" id="town" name="town" size="40"/></td>
                             </tr>
                             <tr>
                                 <td><label for="state">State:</label></td>
@@ -137,7 +136,7 @@
                                 </tr>
                             </table> 
                             
-                            <br/>
+                            <br>
                             
                         </fieldset>
                     
@@ -150,7 +149,7 @@
                         <label>Enter description below:
                             <br/>
                             <textarea name="comments" id="comments" placeholder="Enter your comments here"  cols="80" rows="10"></textarea>
-                            </label>
+                        </label>	
                     </fieldset>
 
                     <input type="reset" value="Reset"/>
