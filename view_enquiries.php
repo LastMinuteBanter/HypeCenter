@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
             <meta charset="utf-8"/>
-            <title>Enquiry Confirmation</title>
+            <title>View Enquiries</title>
             <link rel="stylesheet" type="text/css" href="styles/style.css"/>
             <link rel="icon" href="images/HypeIcon.jpg"/>
             <script src="script/enhancement.js"></script>
@@ -26,7 +26,7 @@
             if(!$conn){
                 die("Connection failed: " . mysqli_connect_error());  
             }else{
-                echo "Successfully connecting to the database\n";
+                echo "Successfully connected to the database\n";
                 echo "<br />";
             }
 
@@ -38,10 +38,39 @@
             echo "<fieldset id='view_enquiry_field'>";
             echo "<legend>Customer Records</legend>";
             if ($result->num_rows>0){
-                echo "<table id='view_enquiry_table'><tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Email</th><th>Phone Number</th><th>Street Address</th><th>City</th><th>State</th><th>Postcode</th><th>Shoe Model</th><th>Shoe Colour</th><th>Size</th><th>Duration</th><th>Subject</th><th>Comment</th></tr>";
+                echo "<table id='view_enquiry_table'>";
+                echo "<tr><th>ID</th>";
+                echo "<th>First Name</th>";
+                echo "<th>Last Name</th>";
+                echo "<th>Email</th>";
+                echo "<th>Phone Number</th>";
+                echo "<th>Street Address</th>";
+                echo "<th>City</th>";
+                echo "<th>State</th>";
+                echo "<th>Postcode</th>";
+                echo "<th>Shoe Model</th>"; 
+                echo "<th>Shoe Colour</th>";
+                echo "<th>Size</th>";
+                echo "<th>Duration</th>"; 
+                echo "<th>Subject</th>";
+                echo "<th>Comment</th></tr>";
 
                 while($row = $result->fetch_assoc()){
-                    echo "<tr><td>".$row["userID"]."</td><td>".$row["firstname"]."</td><td>".$row["lastname"]."</td><td>".$row["email"]."</td><td>".$row["phonenumber"]."</td><td>".$row["stradd"]."</td><td>".$row["city"]."</td><td>".$row["state"]."</td><td>".$row["post"]."</td><td>".$row["shoemodel"]."</td><td>".$row["shoecolour"]."</td><td>".$row["size"]."</td><td>".$row["duration"]."</td><td>".$row["subject"]."</td><td>".$row["comment"]."</td></tr>";
+                    echo "<tr><td>".$row["userID"]."</td>";
+                    echo "<td>".$row["firstname"]."</td>";
+                    echo "<td>".$row["lastname"]."</td>";
+                    echo "<td>".$row["email"]."</td>";
+                    echo "<td>".$row["phonenumber"]."</td>";
+                    echo "<td>".$row["stradd"]."</td>";
+                    echo "<td>".$row["city"]."</td>";
+                    echo "<td>".$row["state"]."</td>";
+                    echo "<td>".$row["post"]."</td>";
+                    echo "<td>".$row["shoemodel"]."</td>";
+                    echo "<td>".$row["shoecolour"]."</td>";
+                    echo "<td>".$row["size"]."</td>";
+                    echo "<td>".$row["duration"]."</td>";
+                    echo "<td>".$row["subject"]."</td>";
+                    echo "<td>".$row["comment"]."</td></tr>";
                 }
                 echo "</table>";
             }else{
