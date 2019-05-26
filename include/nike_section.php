@@ -1,5 +1,13 @@
 <?php 
 
+/*Filename:nike_section.php
+Target html: nike.php page
+Purpose: Only used for nike brand page
+Author:Kiwano
+Date written: 27 May 2019
+Revisions: Addition of Comments, 27/5/2019
+*/
+
 echo '<div class="product_box">
 <img src="images/leviside.jpg" alt="Nike Levi">
 <!--This image was taken from https://www.stadiumgoods.com/air-jordan-4-retro-nrg-260267-->

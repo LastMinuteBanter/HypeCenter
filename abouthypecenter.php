@@ -11,14 +11,18 @@
     <body>
         <header>
             <?php include 'include/nav.php'; ?>
-
+            <form id="search_field" action="results.php" method="GET">
+                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" name="" value="Search" />
+            </form>
             <div id="abouthypecenter-banner">
                     <div id="abouthypecenter-logo">
                         <img src="images/HypeCentre.jpg" alt="HypeCenter logo"/>
                         <p class="brand-slogan">Rent. Flex. Return. Repeat</p>
-                </div>
-                </div>
+                    </div>
+            </div>
         </header>
+        
 
 
         <article>

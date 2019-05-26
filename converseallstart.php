@@ -11,6 +11,11 @@
     <body>
     <header>
         <?php include 'include/nav.php'; ?>
+        <form id="search_field" action="results.php" method="GET">
+                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" name="" value="Search" />
+        </form>
+        
         <?php $servername= "localhost";  
             $username= "root";  
             $password= "";  
@@ -20,6 +25,7 @@
             $conn= mysqli_connect($servername,$username,$password,$dbname);
         ?>
     </header>
+    
 
         <section class="product-img">
             <h2>Converse Chuck Taylor AllStar (hi Top Sunflower Yellow)</h2>

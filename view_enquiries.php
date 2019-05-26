@@ -10,6 +10,10 @@
     <body class="confirm_page">
     <header>
         <?php include 'include/nav.php'; ?>
+        <form id="search_field" action="results.php" method="GET">
+                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" name="" value="Search" />
+        </form>
     </header>
 
     <article id="view_enquiry_article">
@@ -29,13 +33,12 @@
             }
 
             $sql = "SELECT * FROM enquiry";
-            $result = $conn->query($sql);
-
+            $result = mysqli_query($conn,$sql);
 
             echo "<h1 id='enquiry-us'>VIEW ENQUIRIES</h1>";
             echo "<fieldset id='view_enquiry_field'>";
             echo "<legend>Customer Records</legend>";
-            if ($result->num_rows>0){
+            if ($result){
                 echo "<table id='view_enquiry_table'>";
                 echo "<tr><th>ID</th>";
                 echo "<th>First Name</th>";

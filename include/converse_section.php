@@ -1,4 +1,12 @@
 <?php
+/*Filename:converse_section.php
+Target html: converse.php page
+Purpose: Only used for Converse brand page
+Author:Kiwano
+Date written: 27 May 2019
+Revisions: Addition of Comments, 27/5/2019
+*/
+
 echo '<div class="product_box">
 <img src="images/converse_cdg_chuck_lowplay_right.jpg" alt="Converse CDG">
 <!--This image was taken from https://www.stadiumgoods.com/chuck-70-cdg-play-150207c-milk-white-high-risk-red -->

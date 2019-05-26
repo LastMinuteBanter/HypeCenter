@@ -11,6 +11,11 @@
     <body>
             <header>
                 <?php include 'include/nav.php'; ?>
+        
+                <form id="search_field" action="results.php" method="GET">
+                    <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                    <input id="search_btn" type="submit" name="" value="Search" />
+                </form>
             </header>
 
                 <article id="disclaimer-and-enhancement-content">

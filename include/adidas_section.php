@@ -1,4 +1,12 @@
+
 <?php
+/*Filename:adidas_section.php
+Target html: adidas.php page
+Purpose: Only used for adidas brand page
+Author:Kiwano
+Date written: 27 May 2019
+Revisions: Addition of Comments, 27/5/2019
+*/
 
 echo '<div class="product_box">
 <img src="images/adidas_yeezy_tf_right.jpg" alt="adidas yeezys true form"/>

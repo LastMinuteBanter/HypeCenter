@@ -12,9 +12,11 @@
     <body>
         <header>
             <?php include 'include/nav.php'; ?>
-
+            <form id="search_field" action="results.php" method="GET">
+                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" name="" value="Search" />
+            </form> 
             <div class=" v-header">
-
                 <div class="fullscreen-video-wrap">   <!--This is the div for the video layer-->           
                     <video src="hypecentermontage.mp4" autoplay="" loop="" controls muted>
                     </video>
@@ -28,14 +30,12 @@
                     <p>Always wanted to wear those cool sneakers but can't afford to buy them?<br>Why buy when you can rent! <br><span>Now everyone can FLEX!</span></p>
                 </div>
                     
-            </div>
+            </div>  
         </header>
-        <form id="search_field" action="results.php" method="GET">
-            <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
-            <input id="search_btn" type="submit" name="" value="Search" />
-        </form>
-
-
+        
+            
+        
+        
         <article>
             <div class="about-company">
                 <h2>Who are we?</h2>

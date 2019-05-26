@@ -19,13 +19,13 @@
             </form>
 
             <div id="adidas-banner">
-
             <div id="banner-content">
                 <img src="images/adidas.png" alt="adidas logo"/>
                 <p class="brand-slogan">All in or Nothing</p>
             </div>      
-            </div>
+        </div>    
         </header>
+        
         
 
         <article>

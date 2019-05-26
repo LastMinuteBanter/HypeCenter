@@ -1,5 +1,12 @@
 <?php
 
+/*Filename:vans_section.php
+Target html: vans.php page
+Purpose: Only used for Vans brand page
+Author:Kiwano
+Date written: 27 May 2019
+Revisions: Addition of Comments, 27/5/2019
+*/
 echo '<div class="product_box">
 <img src="images/vansgreen2.jpg" alt="Vans Sk8 Hi Pro Supreme Green Skull Pile">
 <!--This image was taken from https://www.stadiumgoods.com/vans-sk8-hi-pro-supreme-skull-pile-vn000vhg3fw-->

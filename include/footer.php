@@ -1,5 +1,13 @@
 
-<?php echo '<div class="footer_list">
+<?php 
+/*Filename:footer.php
+Target html: all pages in the website
+Purpose: The footer for all the pages
+Author:Kiwano
+Date written: 27 May 2019
+Revisions: Addition of Comments, 27/5/2019
+*/
+echo '<div class="footer_list">
                 <ul>
                     <li><a href="abouthypecenter.php">About HypeCenter</a></li>
                     <li><a href="enquiry.php">Enquire Products</a></li>

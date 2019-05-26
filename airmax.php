@@ -11,6 +11,10 @@
     <body>
         <header>
             <?php include 'include/nav.php'; ?>
+            <form id="search_field" action="results.php" method="GET">
+                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" name="" value="Search" />
+            </form>
             <?php
             $servername= "localhost";  
             $username= "root";  
@@ -21,10 +25,7 @@
             $conn= mysqli_connect($servername,$username,$password,$dbname);
             ?>
         </header>
-        <form id="search_field" action="results.php" method="GET">
-                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
-                <input id="search_btn" type="submit" name="" value="Search" />
-        </form>
+        
 
 
         <section class="product-img">
@@ -141,7 +142,7 @@
                                 <li><a href="vansnasa.php">Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</a></li>
                                 <li><a href="vansmastermind.php">Vans x Mastermind x KITH</a></li>
                                 <li><a href="vansmountain.php">Fear of God Vans Mountain Edition 35 DX</a></li>
-                                <li><a href="vanscutandpaste.php">Vans Sk8 Hi “Cut and Paste”</a></li>
+                                <li><a href="vanscutandpaste.html">Vans Sk8 Hi “Cut and Paste”</a></li>
                             </ol>
                         </li>
                 </ul>
