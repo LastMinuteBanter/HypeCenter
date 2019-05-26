@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles/style.css" >
+        <link rel="icon" href="images/HypeIcon.jpg">
+        <title>Nike Air Max 1/97</title>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <?php include 'include/nav.php'; ?>
+            <?php
+            $servername= "localhost";  
+            $username= "root";  
+            $password= "";  
+            $dbname= "rating_system";  
+            $shoename = "Nike Air Max 1/97";
+            // Create connection  
+            $conn= mysqli_connect($servername,$username,$password,$dbname);
+            ?>
+        </header>
+        <form id="search_field" action="results.php" method="GET">
+                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" name="" value="Search" />
+        </form>
+
+
+        <section class="product-img">
+                <h2>Nike Air Max 1/97 Sean Wotherspoon</h2>
+                <img src="images/swright.jpg" id="img01" alt="Air MAx right">
+                <img src="images/swside.jpg" id="img02" alt="Air max side">
+                <img src="images/swback.jpg"  id="img03" alt="air max back">
+                <img src="images/swbottom.jpg" id="img04" alt="air max bottom">
+        </section>
+
+        <!-- Div for modal of image gallery -->
+        <div id="image_modal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&#215;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img_content" src="image" alt="image"/>
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+        </div>
+
+        <article class="sneakers-description">
+                <h1>Background Information</h1>
+                <p>The Nike Air Max 1/97 Sean Wotherspoon is a sneaker designed by Sean Wotherspoon himself as he won the Air Max Sneaker design for competing in the RevolutionAIR voting campaign in early 2017. The sneaker features a unique multi-colored  corduroy upper build which is placed on the iconic tooling of the Air Max 1. The colourway of this sneaker is unique when compared to the other Air Max 97 models and this particular colourway has given life back to the Air Max 97, creating more hype around the sneaker than ever before. The Air Max 1/97 Sean WotherSpoon’s was nominated as one of the most hyped sneakers of 2017. </p>
+                    
+                <p>Sean Wotherspoon is the founder of Round Two, a footwear and clothing wear reselling store in Los Angeles. Sean has taken his idea of recreating the Air Max 97 in a whole new direction and has created a huge impact on the sneaker community due to its popping and outstanding design and colourway scheme that has never been seen before on a 97 model. As of now, the Air Max 1/97 Sean Wotherspoons are currently sitting at a resell value price point of at least $US987 dollars.  This sneaker was originally released alongside other mechandise such as t shirts and caps based on the colour scheme of the Air Max Sean Wotherspoon 97 model. Read more <a href="https://www.stadiumgoods.com/nike-air-max-1-97-vf-sw-sean-wotherspoon-aj4219-400" target="_blank">here.</a></p>
+                <!--The info and image was taken from https://www.stadiumgoods.com/nike-air-max-1-97-vf-sw-sean-wotherspoon-aj4219-400-->
+
+                <table>
+                        <tr>
+                            <th>Size Available (US Chart) </th>
+                            <td>7, 8, 9, 10</td>
+                        </tr>
+                </table>
+
+                <p><a class="enquirebutton" href="enquiry.html" onclick="return validateClick()">RENT NOW!</a></p>
+<form id="rating_form" action="include/post_rating.php" method="POST">
+                <fieldset>
+                    <legend>Rate this product!</legend>
+                    <input type="hidden" name="shoe" value="<?php echo $shoename; ?>"> 
+                    <label for="rating">Rate Product (1-5 stars):</label>
+                    <input id="rating" type="range" name="rating" min="1" max="5">
+                    <br/>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" placeholder="Your name" />
+                    <br/>
+                    <textarea name="comment" placeholder="Enter your Comment"></textarea>
+                    <br/>
+                    <input type="submit" value="Post"/>
+                </fieldset>
+                </form>
+
+                <h3>Other Customer Ratings</h3>
+                <div id="user_ratings">
+                    <?php    
+
+                        $find_comments = mysqli_query($conn,"SELECT * from user_ratings WHERE shoe='$shoename' ");
+                        while($row = mysqli_fetch_assoc($find_comments)){
+                            $name = $row['username'];
+                            $comment = $row['Comment'];
+                            $rating = $row['rating'];
+
+                            echo "<fieldset>";
+                            echo "<p><em>$name</em> rated it <strong>$rating Star(s)</strong>  <br/>Comment: $comment</p>";
+                            echo "</fieldset>";
+                        }
+                        mysqli_close($conn);
+                    ?>
+                
+                </div>
+				
+        </article>
+        <aside>
+                <ul>
+                    <li>Adidas
+                        <ol>
+                            <li><a href="yeezytrueform.php" >Adidas Yeezy True Form</a></li>
+                            <li><a href="yeezywaverunner.php">Adidas Yeezy Wave Runner</a></li>
+                            <li><a href="nmdsolarhu.php">Adidas Solar HU</a></li>
+                            <li><a href="bapeultraboost.php">Adidas BAPE Ultraboost</a></li>
+                            <li><a href="nmdcnygold.php">Adidas Pharell NMD HU CNY GOLD</a></li>
+                            <li><a href="futurecraft.php">Adidas Futurecraft</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        Nike
+                        <ol>
+                             <li><a href="leviaj4.php">Levi's Air Jordan 4</a></li>
+                             <li><a href="aj1offchicago.php">Nike AJ1 OFF-White Chicago</a></li>
+                             <li><a href="airmax.php" class="active">Air Max 1/97 Sean Wotherspoon</a></li>
+                             <li><a href="aj4travis.php">Nike AJ4 Travis Scott</a></li>
+                             <li><a href="airyeezy2.php">Nike Air Yeezy 2 Red Octobers</a></li>
+                             <li><a href="aj13.php">Nike AJ13 Terracotta Warrior</a></li>
+                         </ol>
+                    </li>
+                    <li>
+                            Converse
+                            <ol>
+                                 <li><a href="conversecdg.php">Converse CDG X Chuck Taylor 1970 Low 'play'</a></li>
+                                 <li><a href="converseCDGHigh.php">Converse CDG x Chuck Taylor HI</a></li>
+                                 <li><a href="converseallstart.php">Converse Chuck Taylor AllStar(hi Top Sunflower Yellow)</a></li>
+                                 <li><a href="conversedrwoo.php">Dr.Woo x Chuck Taylor 'white'</a></li>
+                                 <li><a href="converseoffwhite.php">OffWhite x Chuck Taylor</a></li>
+                                 <li><a href="converseintangible.php">Converse Intangible</a></li>
+                             </ol>
+                        </li>
+                        <li>
+                                Vans
+                            <ol>
+                                <li><a href="vansgreen.php">Vans Sk8 Hi Pro Supreme Green Skull Pile</a></li>
+                                <li><a href="vanscheckboard.php">Vans Sk8 Hi Pro Supreme Checkboard</a></li>
+                                <li><a href="vansnasa.php">Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</a></li>
+                                <li><a href="vansmastermind.php">Vans x Mastermind x KITH</a></li>
+                                <li><a href="vansmountain.php">Fear of God Vans Mountain Edition 35 DX</a></li>
+                                <li><a href="vanscutandpaste.php">Vans Sk8 Hi “Cut and Paste”</a></li>
+                            </ol>
+                        </li>
+                </ul>
+            </aside> 
+
+            <footer>
+                <?php include 'include/footer.php'; ?>
+            </footer>
+
+            <script src="script/enhancement.js"></script>
+            </body>
+</html>

@@ -71,50 +71,82 @@
                 </table>
 
                 <p><a class="enquirebutton" href="enquiry.html" onclick="return validateClick()">RENT NOW!</a></p>
+<form id="rating_form" action="include/post_rating.php" method="POST">
+                <fieldset>
+                    <legend>Rate this product!</legend>
+                    <input type="hidden" name="shoe" value="<?php echo $shoename; ?>"> 
+                    <label for="rating">Rate Product (1-5 stars):</label>
+                    <input id="rating" type="range" name="rating" min="1" max="5">
+                    <br/>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" placeholder="Your name" />
+                    <br/>
+                    <textarea name="comment" placeholder="Enter your Comment"></textarea>
+                    <br/>
+                    <input type="submit" value="Post"/>
+                </fieldset>
+                </form>
+
+                <h3>Other Customer Ratings</h3>
+                <div id="user_ratings">
+                <?php    
+
+                    $find_comments = mysqli_query($conn,"SELECT * from user_ratings WHERE shoe='$shoename' ");
+                    while($row = mysqli_fetch_assoc($find_comments)){
+                        $name = $row['username'];
+                        $comment = $row['Comment'];
+                        $rating = $row['rating'];
+
+                        echo "<fieldset>";
+                        echo "<p><em>$name</em> rated it <strong>$rating Star(s)</strong>  <br/>Comment: $comment</p>";
+                        echo "</fieldset>";
+                    }
+                    mysqli_close($conn);
+                ?>
         </article>
         <aside>
                 <ul>
                     <li>Adidas
                         <ol>
-                            <li><a href="yeezytrueform.html">Adidas Yeezy True Form</a></li>
-                            <li><a href="yeezywaverunner.html">Adidas Yeezy Wave Runner</a></li>
-                            <li><a href="nmdsolarhu.html">Adidas Solar HU</a></li>
-                            <li><a href="bapeultraboost.html">Adidas BAPE Ultraboost</a></li>
-                            <li><a href="nmdcnygold.html">Adidas Pharell NMD HU CNY GOLD</a></li>
-                            <li><a href="futurecraft.html">Adidas Futurecraft</a></li>
+                            <li><a href="yeezytrueform.php" >Adidas Yeezy True Form</a></li>
+                            <li><a href="yeezywaverunner.php">Adidas Yeezy Wave Runner</a></li>
+                            <li><a href="nmdsolarhu.php">Adidas Solar HU</a></li>
+                            <li><a href="bapeultraboost.php">Adidas BAPE Ultraboost</a></li>
+                            <li><a href="nmdcnygold.php">Adidas Pharell NMD HU CNY GOLD</a></li>
+                            <li><a href="futurecraft.php">Adidas Futurecraft</a></li>
                         </ol>
                     </li>
                     <li>
                         Nike
                         <ol>
-                             <li><a href="leviaj4.html">Levi's Air Jordan 4</a></li>
-                             <li><a href="aj1offchicago.html">Nike AJ1 OFF-White Chicago</a></li>
-                             <li><a href="airmax.html">Air Max 1/97 Sean Wotherspoon</a></li>
-                             <li><a href="aj4travis.html">Nike AJ4 Travis Scott</a></li>
-                             <li><a href="airyeezy2.html">Nike Air Yeezy 2 Red Octobers</a></li>
-                             <li><a href="aj13.html">Nike AJ13 Terracotta Warrior</a></li>
+                             <li><a href="leviaj4.php">Levi's Air Jordan 4</a></li>
+                             <li><a href="aj1offchicago.php">Nike AJ1 OFF-White Chicago</a></li>
+                             <li><a href="airmax.php">Air Max 1/97 Sean Wotherspoon</a></li>
+                             <li><a href="aj4travis.php">Nike AJ4 Travis Scott</a></li>
+                             <li><a href="airyeezy2.php">Nike Air Yeezy 2 Red Octobers</a></li>
+                             <li><a href="aj13.php">Nike AJ13 Terracotta Warrior</a></li>
                          </ol>
                     </li>
                     <li>
                             Converse
                             <ol>
                                  <li><a href="conversecdg.html" class="active">Converse CDG X Chuck Taylor 1970 Low 'play'</a></li>
-                                 <li><a href="converseCDGHigh.html">Converse CDG x Chuck Taylor HI</a></li>
-                                 <li><a href="converseallstart.html">Converse Chuck Taylor AllStar(hi Top Sunflower Yellow)</a></li>
-                                 <li><a href="conversedrwoo.html">Dr.Woo x Chuck Taylor 'white'</a></li>
-                                 <li><a href="converseoffwhite.html">OffWhite x Chuck Taylor</a></li>
-                                 <li><a href="converseintangible.html">Converse Intangible</a></li>
+                                 <li><a href="converseCDGHigh.php">Converse CDG x Chuck Taylor HI</a></li>
+                                 <li><a href="converseallstart.php">Converse Chuck Taylor AllStar(hi Top Sunflower Yellow)</a></li>
+                                 <li><a href="conversedrwoo.php">Dr.Woo x Chuck Taylor 'white'</a></li>
+                                 <li><a href="converseoffwhite.php">OffWhite x Chuck Taylor</a></li>
+                                 <li><a href="converseintangible.php">Converse Intangible</a></li>
                              </ol>
                         </li>
                         <li>
                                 Vans
                             <ol>
-                                <li><a href="vansgreen.html">Vans Sk8 Hi Pro Supreme Green Skull Pile</a></li>
-                                <li><a href="vanscheckboard.html">Vans Sk8 Hi Pro Supreme Checkboard</a></li>
-                                <li><a href="vansnasa.html">Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</a></li>
-                                <li><a href="vansmastermind.html">Vans x Mastermind x KITH</a></li>
-                                <li><a href="vansmountain.html">Fear of God Vans Mountain Edition 35 DX</a></li>
-                                <li><a href="vanscutandpaste.html">Vans Sk8 Hi “Cut and Paste”</a></li>
+                                <li><a href="vansgreen.php">Vans Sk8 Hi Pro Supreme Green Skull Pile</a></li>
+                                <li><a href="vanscheckboard.php">Vans Sk8 Hi Pro Supreme Checkboard</a></li>
+                                <li><a href="vansnasa.php">Vans Sk8 Hi 46 MTE DX Nasa Space Voyager</a></li>
+                                <li><a href="vansmastermind.php">Vans x Mastermind x KITH</a></li>
+                                <li><a href="vansmountain.php">Fear of God Vans Mountain Edition 35 DX</a></li>
+                                <li><a href="vanscutandpaste.php">Vans Sk8 Hi “Cut and Paste”</a></li>
                             </ol>
                         </li>
                 </ul>

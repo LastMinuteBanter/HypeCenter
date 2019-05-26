@@ -9,10 +9,8 @@
     </head>
     <body class="confirm_page">
     <header>
-        <nav>
-            <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
-        </nav>
-        </header>
+<?php include 'include/nav.php'; ?>
+</header>
 
         <?php
         $fname = $_POST['firstname'];

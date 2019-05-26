@@ -9,10 +9,8 @@
     </head>
     <body class="confirm_page">
     <header>
-        <nav>
-            <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
-        </nav>
-        </header>
+        <?php include 'include/nav.php'; ?>
+    </header>
 
     <article id="view_enquiry_article">
         <?php
@@ -81,6 +79,10 @@
             mysqli_close($conn);
         ?>
     </article>
+
+    <footer>
+        <?php include 'include/footer.php'; ?>
+    </footer>
 
     </body>
 </html>
