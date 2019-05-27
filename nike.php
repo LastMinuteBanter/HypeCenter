@@ -13,8 +13,8 @@
         <header>
         <?php include 'include/nav.php'; ?>
         <form id="search_field" action="results.php" method="GET">
-                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
-                <input id="search_btn" type="submit" name="" value="Search" />
+                <input type="text" name="k"  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" value="Search" />
         </form>
             <div id="nike-banner">
                     <div id="banner-content">

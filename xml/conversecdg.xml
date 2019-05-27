@@ -81,7 +81,7 @@
                     <label for="name">Name:</label>
                     <input id="name" type="text" name="name" placeholder="Your name" />
                     <br/>
-                    <textarea name="comment" placeholder="Enter your Comment"></textarea>
+                    <textarea name="comment" placeholder="Enter your Comment (Max : 100 Characters)"></textarea>
                     <br/>
                     <input type="submit" value="Post"/>
                 </fieldset>

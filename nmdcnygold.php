@@ -12,8 +12,8 @@
     <header>
         <?php include 'include/nav.php'; ?>
         <form id="search_field" action="results.php" method="GET">
-                <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
-                <input id="search_btn" type="submit" name="" value="Search" />
+                <input type="text" name="k"  placeholder="Quick Search" />
+                <input id="search_btn" type="submit" value="Search" />
         </form>
         <?php   
                     $servername= "localhost";  
@@ -71,7 +71,7 @@
                     <label for="name">Name:</label>
                     <input id="name" type="text" name="name" placeholder="Your name" />
                     <br/>
-                    <textarea name="comment" placeholder="Enter your Comment"></textarea>
+                    <textarea name="comment" placeholder="Enter your Comment (Max : 100 Characters)"></textarea>
                     <br/>
                     <input type="submit" value="Post"/>
                 </fieldset>

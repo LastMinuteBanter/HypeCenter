@@ -12,15 +12,15 @@
     <header>
         <?php include 'include/nav.php'; ?>
         <form id="search_field" action="results.php" method="GET">
-            <input type="text" name="k" value='<?php echo isset($_GET['k']) ? $_GET['k'] : ''; ?>'  placeholder="Quick Search" />
-            <input id="search_btn" type="submit" name="" value="Search" />
+            <input type="text" name="k"  placeholder="Quick Search" />
+            <input id="search_btn" type="submit" value="Search" />
         </form>
         <?php
             $servername= "localhost";  
             $username= "root";  
             $password= "";  
             $dbname= "rating_system";  
-            $shoename = "AJ1 Off White Chicago";
+            $shoename = "AJ1 Off White Chicago"; //Assign the product name to this variable
             // Create connection  
             $conn= mysqli_connect($servername,$username,$password,$dbname);
             ?>
@@ -61,7 +61,7 @@
                 </table>
 
                 <p><a class="enquirebutton" href="enquiry.html" onclick="return validateClick()">RENT NOW!</a></p>
-<form id="rating_form" action="include/post_rating.php" method="POST">
+                <form id="rating_form" action="include/post_rating.php" method="POST">
                 <fieldset>
                     <legend>Rate this product!</legend>
                     <input type="hidden" name="shoe" value="<?php echo $shoename; ?>"> 
@@ -71,7 +71,7 @@
                     <label for="name">Name:</label>
                     <input id="name" type="text" name="name" placeholder="Your name" />
                     <br/>
-                    <textarea name="comment" placeholder="Enter your Comment"></textarea>
+                    <textarea name="comment" placeholder="Enter your Comment (Max : 100 Characters)"></textarea>
                     <br/>
                     <input type="submit" value="Post"/>
                 </fieldset>
@@ -80,13 +80,18 @@
                 <h3>Other Customer Ratings</h3>
                 <div id="user_ratings">
                 <?php    
-
+                    //Query the database to find the records that are limited to the specific shoe
                     $find_comments = mysqli_query($conn,"SELECT * from user_ratings WHERE shoe='$shoename' ");
+
+                    //While loop to continue creating the block of reviews
                     while($row = mysqli_fetch_assoc($find_comments)){
+
+                        //fetch the values for each row
                         $name = $row['username'];
                         $comment = $row['Comment'];
                         $rating = $row['rating'];
 
+                        //Creates a field set containing a paragraph with different ratings and comments from different records
                         echo "<fieldset>";
                         echo "<p><em>$name</em> rated it <strong>$rating Star(s)</strong>  <br/>Comment: $comment</p>";
                         echo "</fieldset>";

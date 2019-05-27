@@ -18,6 +18,7 @@ echo '<div class="footer_list">
             <div class="footer_list">
                     <ul>
                         <li><a href="enhancements2.php">Assignment 2 Enhancements</a></li>
+                        <li><a href="phpenhancements.php">PHP enhancements</a></li>
                     </ul>
             </div>
     
@@ -39,6 +40,6 @@ echo '<div class="footer_list">
             </div>
                     
             <div id="copyright">
-                <p>&#169;2019 Kiwano | <a href="disclaimer.php">Disclaimer</a> | Last Updated: 8/5/2019</p>
+                <p>&#169;2019 Kiwano | <a href="disclaimer.php">Disclaimer</a> | Last Updated: 28/5/2019</p>
             </div>
             '?>

@@ -32,7 +32,7 @@ $comment_length = strlen($comment);
 
 //if the comment is longer than 100 characters, inform the user
 if ($comment_length>100){
-    echo "too long";
+    echo "Reduce your comment length to just below 100 characters";
 }else{
     //else add in the values to the user_ratings table in the rating_system database
     mysqli_query($conn,"INSERT INTO user_ratings(rating,username,Comment,shoe) VALUES('$rating','$name','$comment','$shoename')");
