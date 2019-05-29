@@ -18,6 +18,7 @@
 
         <?php  
 
+/*This technique was sourced from a tutorial on HeyTuts https://www.heytuts.com/simple-search-engine-in-php/ */
             //checks if the "k" variable is set and filled,if true, it will assign the $k to ?_GET['k'] ,else it will leave the field to blank
             $k = isset($_GET['k']) ? $_GET['k'] : ''; 
             $terms = explode(" ",$k); //seperate the values in $k into an array called $terms

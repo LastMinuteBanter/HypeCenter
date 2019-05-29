@@ -29,7 +29,7 @@
 
                     <p>A <code>function fill_summary()</code> is created and the values are stored by assigning the values, for example, <code>document.getElementById("confirm_fname").textContent = sessionStorage.fname;</code>. Next, another function <code>validate()</code> is created to indicate if the values are valid. This is done by creating a variable <code>result=true;</code> and if the value is true, an alert message would pop up indicating the booking is successful. If not, the alert message would say it is unsuccessful. If the visitor were to cancel the form, the cancel button would call the function <code>window.close()</code>.</p>
 
-                    <p>This feature can be seen after entering the values in the <a href="enquiry.html">enquiry page</a> which would lead to the <a href="enquiryConfirm.html">confirmation page</a>. This feature was mainly based on the lab exercises but the technique to create a pop up page was sourced from <a href="https://www.w3schools.com/jsref/met_win_open.asp">W3Schools</a>.</p>
+                    <p>This feature can be seen after entering the values in the <a href="enquiry.php">enquiry page</a> which would lead to the <a href="enquiryConfirm.html">confirmation page</a>. This feature was mainly based on the lab exercises but the technique to create a pop up page was sourced from <a href="https://www.w3schools.com/jsref/met_win_open.asp">W3Schools</a>.</p>
 
                     <h2>2. Image Gallery Preview (Modal Image)</h2>
 
@@ -84,7 +84,7 @@
 
                     <p>One of the unique regular expressions that was implemented was the regular expression for Malaysian phone numbers. This was implemented as the pattern test for the mobile number checking function called <code>checkPhone()</code>. The regular expression used was  <code>/^(\+?6?01)[0-46-9]-*[0-9]{7,8}$/</code>. The use of this regular expression meant that the visitor could only use malaysian phone numbers which would make all the phone numbers stored to share similar traits.</p>
 
-                    <p>The use of the regular expression for Malaysia phone numbers can be tested by filling in the phone number input field in the <a href="enquiry.html#c_contact">enquiry page</a>. This feature was based on a discussion thread from <a href="https://stackoverflow.com/questions/1649435/regular-expression-to-limit-number-of-characters-to-10">Stack Overflow</a>.</p>
+                    <p>The use of the regular expression for Malaysia phone numbers can be tested by filling in the phone number input field in the <a href="enquiry.php#c_contact">enquiry page</a>. This feature was based on a discussion thread from <a href="https://stackoverflow.com/questions/1649435/regular-expression-to-limit-number-of-characters-to-10">Stack Overflow</a>.</p>
 
                 </article>
 

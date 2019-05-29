@@ -7,10 +7,10 @@ Author:Kiwano
 Date written: 27 May 2019
 Revisions: Addition of Comments, 27/5/2019
 */
-echo '<header>
-<button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
+echo '
+
 <nav>
-    <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
+    <a href="index.php"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
 
     <div class="hamburger-nav">
             <label for="toggle">&#9776;</label>
@@ -31,6 +31,5 @@ echo '<header>
                 </ul>
             </div>
     </div>
-</nav>
-</header>'
+</nav>'
 ?>

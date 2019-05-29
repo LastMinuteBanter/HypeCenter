@@ -36,7 +36,7 @@
             </header>
 
                 <article id="disclaimer-and-enhancement-content">
-                    <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
+                    
                         <h1>DISCLAIMER</h1>
                         <ul>
                             <li>This website is created mainly for educational and non-commercial use only. It is a partial fulfilment of completion of unit COS10011 - Creating Web Applications offered in Swinburne University of Technology, Sarawak Campus for Semester 1, 2019.</li>

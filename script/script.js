@@ -1,5 +1,5 @@
 /*Filename: script.js
-Target html: [productpages].html,enquiry.html
+Target html: [productpages].html,enquiry.php
 Purpose: Mainly used for form filling and validation
 Author:Kiwano
 Date written: 26 April 2019
@@ -21,7 +21,7 @@ function validateClick(){
 
 function getShoe(){
     //if the sessionstorage has a value,
-    // fill in the subject field in the form of enquiry.html 
+    // fill in the subject field in the form of enquiry.php 
     if(sessionStorage.shoename !=undefined){
         document.getElementById("subject").value = "RE:Enquiry on "+ sessionStorage.shoename;
     }
@@ -29,7 +29,7 @@ function getShoe(){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//function to get the selected shoe from the product drop down list in enquiry.html
+//function to get the selected shoe from the product drop down list in enquiry.php
 function getSelectedOption(){
     var shoelist = document.getElementById("shoe1_model");
     var selshoe = shoelist.options[shoelist.selectedIndex].text;//checks for the selected option 

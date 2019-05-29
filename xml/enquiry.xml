@@ -8,7 +8,7 @@
             <script src="script/script.js"></script>
     </head>
     <body>
-    <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
+    
     <header>
         <nav>
             <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>

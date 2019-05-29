@@ -7,6 +7,8 @@ Date written: 27 May 2019
 Revisions: Addition of Comments, 27/5/2019
 */
 
+/*This technique was sourced from https://www.youtube.com/watch?v=4E-oepPPg7A */
+
 $servername= "localhost";  
 $username= "root";  
 $password= "";  
@@ -33,6 +35,8 @@ $comment_length = strlen($comment);
 //if the comment is longer than 100 characters, inform the user
 if ($comment_length>100){
     echo "Reduce your comment length to just below 100 characters";
+}else if($name==""){
+    echo "Please enter a name";
 }else{
     //else add in the values to the user_ratings table in the rating_system database
     mysqli_query($conn,"INSERT INTO user_ratings(rating,username,Comment,shoe) VALUES('$rating','$name','$comment','$shoename')");

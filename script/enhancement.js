@@ -1,5 +1,5 @@
 /*Filename: enhancement.js
-Target html: all pages except enquiry.html
+Target html: all pages except enquiry.php
 Purpose: Mainly used for enhancement functions
 Author:Kiwano
 Date written: 30 April 2019

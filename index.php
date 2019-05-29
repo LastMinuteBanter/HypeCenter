@@ -44,7 +44,7 @@
                 <p>HypeCenter was established in 2019 with the idea of growing the Sneakerhead community in Malaysia!</p>
                 <p> <span>Problem:</span> The high selling price of specialty sneakers fends away some parts of the Sneakerhead community and makes them feel left behind</p>
                 <p><span>Our Solution:</span> Rent the shoes! Some sneakerheads just want to try some of these specialty sneakers and style them with their daily outfits. Therefore, we are here to make their dreams a reality!</p>
-                <p><a href="abouthypecenter.html" target="_blank">Learn More!</a></p>
+                <p><a href="abouthypecenter.php" target="_blank">Learn More!</a></p>
             </div>
             </div>
         </article>
@@ -53,19 +53,19 @@
                 <div class="promotional-card">
                         <h2>Events</h2>
                         <img src="images/event_image.jpg" alt="Events"/>
-                        <p>We're always open for events!<br><br><a href="enquiry.html" target="_blank">Enquire</a></p>
+                        <p>We're always open for events!<br><br><a href="enquiry.php" target="_blank">Enquire</a></p>
                     </div>
 
             <div class="promotional-card">
                 <h2>Promotional Item</h2>
                 <img src="images/yeezystrueform.jpg" alt="Yeezy True Form"/>
-                <p>Check out our latest offerings! <br><br><a href="adidas.html" target="_blank">CHECK IT OUT</a></p>
+                <p>Check out our latest offerings! <br><br><a href="adidas.php" target="_blank">CHECK IT OUT</a></p>
             </div>
 
             <div class="promotional-card">
                 <h2>Vouchers</h2>
                 <img src="images/voucher.jpg" alt="voucher"/>
-                <p>Keep an eye out for our vouchers here!<br><br><a href="enquiry.html" target="_blank">Learn More</a></p>
+                <p>Keep an eye out for our vouchers here!<br><br><a href="enquiry.php" target="_blank">Learn More</a></p>
             </div>
     </section>
     

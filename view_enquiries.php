@@ -56,7 +56,7 @@
                 echo "<th>Subject</th>";
                 echo "<th>Comment</th></tr>";
 
-                while($row = $result->fetch_assoc()){
+                while($row = mysqli_fetch_assoc($result)){
                     echo "<tr><td>".$row["userID"]."</td>";
                     echo "<td>".$row["firstname"]."</td>";
                     echo "<td>".$row["lastname"]."</td>";

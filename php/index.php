@@ -10,31 +10,9 @@
     </head>
 
     <body>
-        <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
+        
         <header>
-            <nav>
-                <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
-
-                <div class="hamburger-nav">
-                        <label for="toggle">&#9776;</label>
-                        <input type="checkbox" id="toggle"/>
-                        <div class="menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li>Brands
-                                    <ul>
-                                        <li><a href="adidas.html">Adidas</a></li>
-                                        <li><a href="converse.html">Converse</a></li>
-                                        <li><a href="nike.html">Nike</a></li>
-                                        <li><a href="vans.html">Vans</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="enquiry.php">Enquire</a></li>
-                                <li><a href="abouthypecenter.html">About Us</a></li>
-                            </ul>
-                        </div>
-                </div>
-            </nav>
+            <?php include 'include/nav.php'; ?>
 
             <div class=" v-header">
 
@@ -71,7 +49,7 @@
                 <div class="promotional-card">
                         <h2>Events</h2>
                         <img src="images/event_image.jpg" alt="Events"/>
-                        <p>We're always open for events!<br><br><a href="enquiry.html" target="_blank">Enquire</a></p>
+                        <p>We're always open for events!<br><br><a href="enquiry.php" target="_blank">Enquire</a></p>
                     </div>
 
             <div class="promotional-card">
@@ -83,7 +61,7 @@
             <div class="promotional-card">
                 <h2>Vouchers</h2>
                 <img src="images/voucher.jpg" alt="voucher"/>
-                <p>Keep an eye out for our vouchers here!<br><br><a href="enquiry.html" target="_blank">Learn More</a></p>
+                <p>Keep an eye out for our vouchers here!<br><br><a href="enquiry.php" target="_blank">Learn More</a></p>
             </div>
     </section>
     

@@ -44,7 +44,7 @@
 
 
         <article>
-            <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
+            
             <div id="abouthypecenter-content">
                 <h1>Company background</h1>
                 <p>HypeCenter started out as an expensive "Hypebeast" shoe retailer which is based in Kuching, Sarawak. Due to the calamity of the public's economy, people were not able to afford the shoes that were retailed by the shop. HypeCenter has since changed the services from shoe retailer to shoe rental so that the locals are able to keep up to trends or try out and have a feel of these type of shoes before purchasing them.</p>

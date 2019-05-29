@@ -10,34 +10,12 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a href="index.html"><img src="images/HypeCentre.jpg" alt="HypeCenter logo"/></a>
-
-                <div class="hamburger-nav">
-                        <label for="toggle">&#9776;</label>
-                        <input type="checkbox" id="toggle"/>
-                        <div class="menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li>Brands
-                                    <ul>
-                                        <li><a href="adidas.html">Adidas</a></li>
-                                        <li><a href="converse.html">Converse</a></li>
-                                        <li><a href="nike.html">Nike</a></li>
-                                        <li><a href="vans.html">Vans</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="enquiry.php">Enquire</a></li>
-                                <li><a href="abouthypecenter.html">About Us</a></li>
-                            </ul>
-                        </div>
-                </div>
-            </nav>
+            <?php include 'include/nav.php'; ?>
         </header>
 
 
         <article>
-        <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
+        
            <div id="profile-content">
                 <h1>Hans Louis </h1>
                 <h2>Course: Bachelor of Computer Science</h2>
